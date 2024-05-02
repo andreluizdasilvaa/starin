@@ -53,6 +53,7 @@ header h1{
     font-family: racing;
     font-size: 5em;
     color: #D9D9D9;
+    font-weight: 100;
 }
 
 .button_padrao {
@@ -61,8 +62,6 @@ header h1{
     background-color: #FFB800;
     border-radius: 9px;
     font-weight: 500;
-    font-size: 17px;
-
 }
 
 /*-=-=-=-=-=-=-=-*/
@@ -79,6 +78,7 @@ nav{
     background-color: #030712;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    margin-bottom: 60px;
 }
 
 nav ul{
@@ -120,7 +120,57 @@ nav ul input{
 /*    SECTION 1  */
 /*-=-=-=-=-=-=-=-*/
 
-section.sec1{
+.sec1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1350px;
+    height: 907px;
+    background-color: #010101;
+    border-radius: 30px;
+}
+
+/* TEXT */
+.sec1 h1 {
+    margin-bottom: 50px;
+    font-size: 7em;
+    font-family: Roboto, Oxygen;
+}
+
+.sec1 p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+/* IMG */
+img {
+    width: 790px;
+}
+/* BUTTON */
+.text_button {
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+}
+
+.text_button a {
+    width: 130px;
+    height: 25px;
+    text-align: center;
+}
+
+#button_mambiente {
+    background-color: #1D6903;
+    margin-left: 25px;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*    SECTION 2  */
+/*-=-=-=-=-=-=-=-*/
+
+section.sec2{
     margin: auto;
     background-color: #D9D9D9;
     width: 1250px;
@@ -130,12 +180,12 @@ section.sec1{
     margin-top: 50px;
 }
 
-section.sec1 h1{
+section.sec2 h1{
     font-family: racing;
     font-size: 3em;
 }
 
-section.sec1 P{
+section.sec2 P{
     font-weight: 400;
 }
 
