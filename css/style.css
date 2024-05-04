@@ -187,6 +187,7 @@ section.sec2 h1{
 
 section.sec2 P{
     font-weight: 400;
+    color: black;
 }
 
 /*-=-=-=-=-=-=-=-*/
@@ -207,9 +208,112 @@ video::-webkit-media-controls{
     display: none;
 }
 
+/*-=-=-=-=-=-=-=-=-=-=-*/
+/*    SECTION 3 1/2    */
+/*-=-=-=-=-=-=-=-=-=-=-*/
+
+.sec3_paralax {
+    width: 100%;
+    height: 780px;
+    background-image: url(../img/astronauta\ na\ lua\ paralax.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: black;
+    padding-top: 80px;
+    filter: brightness(80%);
+}
+
+.sec3_paralax h2 {
+    font-size: 5.2em;
+    color: white;
+    margin: 0px 0px 30px 50px;
+}
+
+.sec3_paralax p {
+    font-size: 1.3em;
+    color: white;
+    margin-left: 70px;
+}
+
+.sec3_paralax a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 30px 0px 0px 60px;
+    width: 190px;
+}
+
+.sec3_paralax a:hover .link-text {
+    text-decoration: underline;
+}
+
+.sec3_paralax a span.material-symbols-outlined {
+    margin-left: 8px;
+    font-size: 1.5em;
+    color: #FFB800;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-*/
+/*    SECTION 3 2/2    */
+/*-=-=-=-=-=-=-=-=-=-=-*/
+
+.sec3_sobrelua {
+    background-color: #080808;
+    color: white;
+    height: 242px;
+    margin-bottom: 100px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.sec3_sobrelua h2{
+    margin: 5px 0px 0px 50px;
+    width: 300px;
+}
+
+.sec3_sobrelua ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sec3_sobrelua ul li img{
+    max-width: 150px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.sec3_sobrelua ul li {
+    display: flex;
+}
+
+.colum_lua {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.colum_lua h3 {
+    font-size: 1.25em;
+    color: #FFB800;
+    font-weight: bold;
+}
 /*-=-=-=-=-=-=-=-*/
 /*   cartões Q   */
 /*-=-=-=-=-=-=-=-*/
+
+.cardsq h2{
+    text-align: center;
+    color: white;
+    font-family: racing;
+    font-size: 40px;
+    margin-top: 100px;
+}
 
 section.cardsq ul {
     display: flex;
@@ -230,10 +334,6 @@ section.cardsq ul li img {
 section.cardsq ul li img:hover {
     transform: scale(1.1); /* Aumenta o tamanho em 10% ao passar o mouse */
 }
-
-/*-=-=-=-=-=-=-=-*/
-/*   cartões Q   */
-/*-=-=-=-=-=-=-=-*/
 
 
 
