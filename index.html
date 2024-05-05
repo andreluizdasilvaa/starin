@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Background/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Icons do google icons \/  -->
@@ -21,31 +21,29 @@
     <!-- Header -->
     <header>
         <div class="content">
-            <img src="img/Logo.png" alt="logo">
+            <img src="img/Background/Logo.png" alt="logo">
             <div class="text_logo">
                 <h1>STAR.IN</h1>
                 <p>Prepare-se para mergulhar em uma experiência educativa e envolvente, onde cada planeta, lua e asteroide guarda <br> segredos que desafiam a imaginação e inspiram a <br> exploração.</p>
             </div>
         </div>
         <a href="#" class="button_padrao">cadastre sua escola</a>
-        
     </header>
 
     <!-- Menu de Navegação -->
 
     <nav>
         <ul>
-            <li><a href="#" id="sistema_solar">O sistema solar</a></li>
+            <li><a href="#" id="pag_atual">O sistema solar</a></li>
             <li><a href="#">Componentes</a></li>
             <li><a href="#">Desbravadores</a></li>
             <li><a href="#">Loja Virtual</a></li>
             <li>
-                <form action="#">
+                <form action="#" id="form_busca">
+                    <label for="pesquisar"></label>
                     <input type="text" name="pesquisar" id="pesquisar" placeholder="O que procura viajante?">
+                    <button type="submit" id="btn_busca"><span class="material-symbols-outlined">search</span></button>
                 </form>
-            </li>
-            <li>
-                <a href="#"><span id="Search" class="material-symbols-outlined">search</span></a>
             </li>
         </ul>
     </nav>
@@ -58,12 +56,12 @@
             <p>Um planeta rochoso localizado no sistema solar, com uma <br> atmosfera composta principalmente de nitrogênio e oxigênio. <br> Sua superfície é coberta por oceanos, terras e gelo, abrigando <br> uma diversidade extraordinária de vida.</p>
             <div class="text_button">
                 <a href="#" class="button_padrao">EXPLORAR</a>
-                <a href="#" class="button_padrao" id="button_mambiente">MEIO AMBIENTE</a>
+                <a href="#" class="button_padrao" id="button_green">MEIO AMBIENTE</a>
             </div>
         </div>
 
         <div>
-            <img src="img/Planeta terra sec1.webp" alt="Planeta Terra">
+            <img src="img/Background/Planeta terra sec1.webp" alt="Planeta Terra">
         </div>
     </section>
 
@@ -125,6 +123,7 @@
     </section>
 
     <!-- Section3 "satelites naturais" -->
+
     <section>
         <div class="sec3_paralax">
             <h2>SATELITES NATURAIS</h2>
@@ -153,7 +152,8 @@
                     <div class="colum_lua">
                         <h3>TRAGA UM CASAQUINHO</h3>
                         <p>Na Lua não há vento ou<br> chuva, mas o clima é variavel.</p>
-                    </div></li>
+                    </div>
+                </li>
 
                 <li><img src="img/Sobre a lua da terra/astronauta na lua.jpg" alt="">
                 <div class="colum_lua">
@@ -165,6 +165,7 @@
     </section>
 
     <!-- Cards -->
+
     <section class="cardsq">
         <h2>EXPLORE MAIS COMPONENTES</h2>
         <ul>
@@ -188,32 +189,40 @@
         <div class="sec3_sobrelua"> 
             <h2>EXPLORE:</h2>
             <ul>
-                <li><img src="img/Você_sabia_que_estamos_cercados/asteroides_2.png" alt="asteroides">
+                <li>
+                    <img src="img/Você_sabia_que_estamos_cercados/asteroides_2.png" alt="asteroides">
                     <div class="colum_lua">
                         <h3>CINTURÃO DE ASTEROIDES</h3>
-                <p>Região rochosa entre Marte e<br> Júpiter.</p>
+                        <p>Região rochosa entre Marte e<br> Júpiter.</p>
                     </div>
                 </li>
 
-                <li><img src="img/Você_sabia_que_estamos_cercados/Kuiper_belt_plot_objects_of_outer_solar_system.png" alt="">
-                    <div class="colum_lua"><h3>CINTURÃO DE KUIPER</h3>
-                <p>Região gelada além de<br> Netuno com corpos celestes<br> pequenos.</p></div>
+                <li>
+                    <img src="img/Você_sabia_que_estamos_cercados/Kuiper_belt_plot_objects_of_outer_solar_system.png" alt="">
+                    <div class="colum_lua">
+                        <h3>CINTURÃO DE KUIPER</h3>
+                        <p>Região gelada além de<br> Netuno com corpos celestes<br> pequenos.</p>
+                    </div>
                 </li>
 
-                <li><img src="img/Você_sabia_que_estamos_cercados/tema_15_1082457107_9194180.jpg" alt="">
+                <li>
+                    <img src="img/Você_sabia_que_estamos_cercados/tema_15_1082457107_9194180.jpg" alt="">
                     <div class="colum_lua">
                         <h3>NUVEM DE OORT</h3>
                         <p>Reservatório distante de<br> cometas e corpos gelados<br> interplanetários.</p>
-                    </div></li>
+                    </div>
+                </li>
 
-                <li><img src="img/Sobre a lua da terra/astronauta na lua.jpg" alt="">
-                <div class="colum_lua">
-                    <h3>OS CINTURÕES E O PLANETA TERRA</h3>
-                    <p>Cinturões afetam a gravidade<br> devido à sua massa<br> significativa.</p>
-                </div></li>
+                <li>
+                    <img src="img/Sobre a lua da terra/astronauta na lua.jpg" alt="">
+                    <div class="colum_lua">
+                        <h3>OS CINTURÕES E O PLANETA TERRA</h3>
+                        <p>Cinturões afetam a gravidade<br> devido à sua massa<br> significativa.</p>
+                    </div>
+                </li>
             </ul>
         </div>
-    </section
+    </section>
 
     <!-- Section 5 "PLANETAS ANÕES"-->
 
@@ -263,6 +272,7 @@
     </section>
 
     <!--Section "Ventos Solares" isa-->
+
     <section class="solarwind">
         <div id="wrapper-solarwind">
             <div id="text-solarwind">
@@ -271,8 +281,12 @@
                 <p>Os ventos solares, correntes de partículas do Sol, desencadeiam fenômenos como as auroras boreais na Terra. Essas luzes hipnotizantes, vistas nos polos, resultam da interação das partículas solares com o campo magnético terrestre. As auroras não só inspiram admiração, mas também destacam a dinâmica relação entre o Sol e nosso planeta.</p>
 
                 <div id="buttons-solarwind">
-                    <button type="button" id="explorar">EXPLORAR</button>
-                    <button type="button" id="galeria">GALERIA DE EVENTOS</button>
+                    <a href="" class="button_padrao ibutton">
+                        EXPLORAR
+                    </a>
+                    <a href="" class="button_padrao" id="button_green">
+                        GALERIA DE EVENTOS
+                    </a>
                 </div>
             </div>
 
@@ -292,19 +306,19 @@
     <footer>
         <div id="footer-content">
             <div id="footer-contacts">
-                <h1 id="footer-h1"><img src="img/Group 11.png" width="250px" id="footer-logo"></h1>
+                <h1 id="footer-h1"><img src="img/Background/Group 11.png" width="250px" id="footer-logo"></h1>
 
                 <div id="footer-social-media">
                     <a href="#" class="footer-link" id="instagram">
-                        <img src="img/instagram.png" width="30px">
+                        <img src="img/Redes sociais/instagram.png" width="30px">
                     </a>
 
                     <a href="#" class="footer-link" id="facebook">
-                        <img src="img/facebook.png" width="30px">
+                        <img src="img/Redes sociais/facebook.png" width="30px">
                     </a>
 
                     <a href="#" class="footer-link" id="twitter">
-                        <img src="img/twitter.png" width="30px">
+                        <img src="img/Redes sociais/twitter.png" width="30px">
                     </a>
                 </div>
             </div>
