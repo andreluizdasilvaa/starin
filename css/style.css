@@ -12,7 +12,7 @@
 }
 
 body {
-    background-image: url(../img/Background/Background.gif);
+    background-image: url(../img/Background/Background.giF);
     background-size: 100vh;
     scroll-behavior: smooth;
 }
@@ -27,7 +27,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    max-width: 1400px;
     height: 530px;
     background-image: url(../img/Background/foto\ capa\ terra.jpg);
     background-size: cover;
@@ -62,7 +62,7 @@ header h1 {
     color: black;
     background-color: #FFB800;
     border-radius: 9px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 /*-=-=-=-=-=-=-=-*/
@@ -74,7 +74,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    max-width: 1400px;
     height: 130px;
     background-color: #030712;
     border-bottom-right-radius: 30px;
@@ -86,7 +86,7 @@ nav ul {
     display: flex;
     gap: 50px;
     font-size: 1.35em;
-    font-weight: 400;
+    font-weight: 600;
     align-items: center;
 }
 
@@ -145,10 +145,11 @@ nav ul input {
     align-items: center;
     justify-content: center;
     color: white;
-    width: 1350px;
+    max-width: 1350px;
     height: 907px;
     background-color: #010101;
     border-radius: 30px;
+    padding: 20px;
 }
 
 /* TEXT */
@@ -245,7 +246,6 @@ video::-webkit-media-controls {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-color: black;
     padding-top: 80px;
     filter: brightness(80%);
 }
@@ -326,10 +326,14 @@ video::-webkit-media-controls {
     margin-left: 10px;
 }
 
-.colum_lua h3 {
+.colum_lua h3 a{
     font-size: 1.25em;
     color: #FFB800;
     font-weight: bold;
+}
+
+.colum_lua h3 a:hover{
+    text-decoration: underline;
 }
 
 /*-=-=-=-=-=-=-=-*/
@@ -341,6 +345,7 @@ video::-webkit-media-controls {
     color: white;
     font-family: racing;
     font-size: 40px;
+    letter-spacing: 4px;
 }
 
 section.cardsq ul {
@@ -376,7 +381,6 @@ section.cardsq ul li img:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
     padding-top: 80px;
     filter: brightness(80%);
     margin-top: 50px;
@@ -445,7 +449,7 @@ section.cardsq ul li img:hover {
     width: 1230px;
     padding: 20px;
     color: white;
-    background-color: black;
+    background-color: #030712;
     margin: auto;
 }
 
@@ -489,7 +493,7 @@ section.cardsq ul li img:hover {
     display: flex;
     width: 1350px;
     height: 707px;
-    background-color: #010101;
+    background-color: #030712;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
@@ -501,7 +505,7 @@ section.cardsq ul li img:hover {
     box-sizing: border-box;
     margin: auto;
     color: white;
-    background-color: #010101;
+    background-color: #030712;
 }
 
 #wrapper-solarwind h1 {
