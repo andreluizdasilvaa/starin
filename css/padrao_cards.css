@@ -3,20 +3,216 @@
     src: url(../fonts/RacingSansOne-Regular/RacingSansOne-Regular.ttf);
 }
 
+/*   Foooter   */
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #252525;
+}
+
+h1,h2,h3,p {
+    color: white;
+    font-family: racing;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+/*=============*/
+/*    Header   */
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+    line-height: 65px;
+    margin: 15px;
+    font-family: racing;
+}
+
+header h1 span {
+    color: #BA8600;
+}
+
+header img {
+    width: 100px;
+    display: block;
+    margin-left: 100px;
+}
+
+/*=============*/
+/*    Sec_1    */
+
+.sec_1 {
+    margin: auto;
+    margin: 20px 0px 100px 0px;
+}
+
+.sec_1-info {
+    margin: 7px 8.7px 7px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 1px;
+    border-radius: 15px;
+    width: 400px;
+
+    font-size: 20px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+    background-color: #373737;
+    color: white; /* deixar o text dentro de um P*/
+}
+
+.content-sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*=============*/
+/*    Sec_2    */
+
+.content_sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #030712;
+    
+    width: 1150px;
+    height: 700px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.imgs_sec2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.imgs_sec2 img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.text_sec2 ul{
+    list-style: none;
+}
+
+.text_sec2 ul li {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.text_sec2 ul li span {
+    color: #BA8600;
+}
+
+/*=============*/
+/*    Sec_3    */
+
+.sec_3 {
+    margin: auto;
+    width: 1060px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*=============*/
+/*    Sec_4    */
+
+.menssage {
+    background-color: white;
+    color: black;
+    width: 700px;
+    max-height: 200px;
+    padding: 20px;
+    border-radius: 0px 20px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menssage p {
+    font-size: 20px;
+    color: black;
+}
+
+.menssage h3 {
+    font-size: 27px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.row1_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1_content img {
+    width: 350px;
+}
+
+.row2_content {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
 
 
-/*   Foooter-para alterar*/
+/*-=-=-=-=-=-=-=-*/
+/*   cartões Q   */
+
+section.cardsq ul {
+    display: flex;
+    justify-content: center;
+}
+
+section.cardsq ul li {
+    margin: 50px;
+}
+
+section.cardsq ul li img {
+    box-sizing: border-box;
+    width: 450px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section.cardsq ul li img:hover {
+    transform: scale(1.1);
+}
+
+/*=============*/
+/*   Foooter   */
 
 footer {
     width: 100%;
-    color: #D9D9D9;
 }
 
 #footer-content {
     background-color: #030712;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
 }
 
 .footer-contacts {
@@ -48,9 +244,12 @@ footer {
     transform: scale(1.3);
 }
 
-.voltar_home h2,span{
+.voltar_home h2 {
     color: white;
     font-size: 37px;
     font-family: racing;
-    align-items: center;
+}
+
+.voltar_home h2:hover {
+    text-decoration: underline;
 }
