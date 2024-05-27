@@ -3,15 +3,15 @@
     src: url(../fonts/RacingSansOne-Regular/RacingSansOne-Regular.ttf);
 }
 
-/*   Foooter   */
-
 * {
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-color: #252525;
+    background-color: #1a1a1a;
+    /* background-color: #252525; */
 }
 
 h1,h2,h3,p {
@@ -47,7 +47,7 @@ header h1 span {
 header img {
     width: 100px;
     display: block;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 /*=============*/
@@ -67,12 +67,14 @@ header img {
     border-radius: 15px;
     width: 400px;
 
-    font-size: 20px;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-
     background-color: #373737;
-    color: white; /* deixar o text dentro de um P*/
+}
+
+.sec_1-info p {
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
 }
 
 .content-sec1 {
@@ -136,9 +138,14 @@ header img {
 /*=============*/
 /*    Sec_4    */
 
+.menssage,
+.menssage p,
+.menssage h3 {
+    color: black;
+}
+
 .menssage {
     background-color: white;
-    color: black;
     width: 700px;
     max-height: 200px;
     padding: 20px;
@@ -149,12 +156,10 @@ header img {
 }
 .menssage p {
     font-size: 20px;
-    color: black;
 }
 
 .menssage h3 {
     font-size: 27px;
-    color: black;
     margin-bottom: 12px;
 }
 
