@@ -66,14 +66,21 @@ header ul li a:hover {
     border-radius: 30px;
     margin-top: 65px;
     margin-bottom: 150px;
+
+    opacity: 0;
+    animation: fadeInSlideY 1s ease-in-out forwards;
 }
 
 .sec1_conteiner img {
     width: 600px;
+    opacity: 0;
+    animation: fadeInSlideA 1s ease-in-out forwards;
 }
 
 .text_sec1 {
     width: 500px;
+    opacity: 0;
+    animation: fadeInSlideB 1s ease-in-out forwards;
 }
 
 .text_sec1 h1 {
@@ -222,4 +229,39 @@ footer {
 
 .voltar_home h2:hover {
     text-decoration: underline;
+}
+
+/* --//-- */
+
+@keyframes fadeInSlideA {
+    from {
+    opacity: 0;
+    transform: translateX(20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+@keyframes fadeInSlideB {
+    from {
+    opacity: 0;
+    transform: translateX(-20px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
+}
+
+@keyframes fadeInSlideY {
+    from {
+    opacity: 0;
+    transform: translatey(40px); 
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0);
+    }
 }
