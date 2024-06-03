@@ -1,0 +1,260 @@
+@font-face {
+    font-family: racing;
+    src: url(../fonts/RacingSansOne-Regular/RacingSansOne-Regular.ttf);
+}
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+    /* background-color: #252525; */
+}
+
+h1,h2,h3,p {
+    color: white;
+    font-family: racing;
+}
+
+.titulo{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+/*=============*/
+/*    Header   */
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 70px;
+    line-height: 65px;
+    margin: 15px;
+    font-family: racing;
+}
+
+header h1 span {
+    color: #BA8600;
+}
+
+header img {
+    width: 100px;
+    display: block;
+    margin-left: 150px;
+}
+
+/*=============*/
+/*    Sec_1    */
+
+.sec_1 {
+    margin: auto;
+    margin: 20px 0px 100px 0px;
+}
+
+.sec_1-info {
+    margin: 7px 8.7px 7px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 1px;
+    border-radius: 15px;
+    width: 400px;
+
+    text-align: center;
+    background-color: #373737;
+}
+
+.sec_1-info p {
+    color: white;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.content-sec1 {
+    display: flex;
+    justify-content: center;
+}
+
+/*=============*/
+/*    Sec_2    */
+
+.content_sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #030712;
+    
+    width: 1150px;
+    height: 700px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.imgs_sec2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.imgs_sec2 img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.text_sec2 ul{
+    list-style: none;
+}
+
+.text_sec2 ul li {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.text_sec2 ul li span {
+    color: #BA8600;
+}
+
+/*=============*/
+/*    Sec_3    */
+
+.sec_3 {
+    margin: auto;
+    width: 1060px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*=============*/
+/*    Sec_4    */
+
+.menssage,
+.menssage p,
+.menssage h3 {
+    color: black;
+}
+
+.menssage {
+    background-color: white;
+    width: 700px;
+    max-height: 200px;
+    padding: 20px;
+    border-radius: 0px 20px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menssage p {
+    font-size: 20px;
+}
+
+.menssage h3 {
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.row1_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row1_content img {
+    width: 350px;
+}
+
+.row2_content {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   cartões Q   */
+
+section.cardsq ul {
+    display: flex;
+    justify-content: center;
+}
+
+section.cardsq ul li {
+    margin: 50px;
+}
+
+section.cardsq ul li img {
+    box-sizing: border-box;
+    width: 450px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section.cardsq ul li img:hover {
+    transform: scale(1.1);
+}
+
+/*=============*/
+/*   Foooter   */
+
+footer {
+    width: 100%;
+}
+
+#footer-content {
+    background-color: #030712;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+}
+
+.footer-contacts {
+    margin-bottom: 0.75rem;
+}
+
+#footer-h1 {
+    font-family: racing;
+    margin-top: -30px;
+}
+
+#footer-social-media {
+    display: flex;
+    gap: 10px;
+    margin-top: -1.8rem;
+    margin-left: 110px;
+    padding-left: 10px;
+}
+
+#footer-social-media .footer-link {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #D9D9D9;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+#footer-social-media .footer-link:hover {
+    transform: scale(1.3);
+}
+
+.voltar_home h2 {
+    color: white;
+    font-size: 37px;
+    font-family: racing;
+}
+
+.voltar_home h2:hover {
+    text-decoration: underline;
+}
