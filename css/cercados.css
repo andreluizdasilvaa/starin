@@ -1,0 +1,175 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     HEADER   */
+/*-=-=-=-=-=-=-=-*/
+
+header{
+    background-image: url(../img/cercados/Rectangle\ 1\ \(1\).png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    height: 700px; 
+}
+
+h1{
+    font-family: Roboto;
+    width: 719px;
+    position: relative;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto;
+    color: #d9d9d9;
+    text-align: right;
+    display: inline-block;
+}
+
+p{
+
+    position: relative;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 75px;
+    margin-left: 50px;
+    max-width: 70%;
+
+}
+
+.botao{
+    background-color: #ffb800;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+#texto-botao{
+    text-decoration: none;
+    font-family: Roboto;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.botao:hover{
+    scale: 1.1;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    scale: 1.01;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 1  */
+/*-=-=-=-=-=-=-=-*/
+.sec1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    background-color: #000000;
+    padding: 80px;
+}
+
+.sec1 h1{
+    font-family: Racing Sans One;
+    font-size: 53px;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.sec1 p{
+    font-family: Lexend;
+    font-size: 18px;
+    max-width: 90%;
+    text-align: justify;
+    margin: 0%;
+}
+
+.sec1 img{
+    margin: 0;
+    border-radius: 40px;
+}
+
+.img-sec1{
+    display: grid;
+    justify-content: center;
+    
+}
+
+#p-sec1-excessão{
+    color: #000000;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*      SEC2      */
+/*-=-=-=-=-=-=-=-*/
+.sec2{
+    background-color: #d9d9d9;
+    padding: 50px;
+    margin: auto;
+   
+}
+
+.img-sec2 {
+    width: 100px;
+    height: 100px;
+}
+
+.sec2 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.sec2 li{
+    display: flex;
+    gap: 10px;
+}
+
+.sec2 h2{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+#p-sec2 {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: black;
+    font-weight: 500;  
+    margin: 0;
+}

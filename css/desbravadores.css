@@ -1,0 +1,622 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     HEADER   */
+/*-=-=-=-=-=-=-=-*/
+
+header{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.205) 0%, #030712c0 100%), url(../img/desbravadores/foto-header.png);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    height: 700px; 
+}
+
+h1{
+    font-family: Roboto;
+    width: 719px;
+    position: relative;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto;
+    color: #d9d9d9;
+    text-align: right;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+p{
+
+    position: relative;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 75px;
+    margin-left: 50px;
+
+}
+
+.botao{
+    background-color: #ffb800;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+#texto-botao{
+    text-decoration: none;
+    font-family: Roboto;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.botao:hover{
+    scale: 1.1;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    scale: 1.01;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 1  */
+/*-=-=-=-=-=-=-=-*/
+#sec1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    background-color: #030712;
+    padding: 80px;
+}
+
+#sec1 h1{
+    font-family: Racing Sans One;
+    font-size: 50px;
+    margin: 0;
+    text-align: left;
+}
+
+#sec1 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
+    text-align: justify;
+    margin: 0%;
+}
+
+#sec1 img{
+    margin: 0;
+}
+
+.txt-sec1{
+    display: grid;
+    justify-content: center;
+}
+
+.foto-sec1{
+    display: grid;
+    justify-content: center;
+}
+
+#frase{
+    color: #ffb800;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 2  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec2{
+    background-image: url(/img//desbravadores/saturn-rings\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 250px;
+
+}
+
+.sec2 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec2 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 3  */
+/*-=-=-=-=-=-=-=-*/
+.sec3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #030712;
+    padding: 80px;
+    margin: auto;
+}
+
+.sec3 h1{
+    font-family: Racing Sans One;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.sec3 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.sec3 img{
+    display: grid;
+    justify-content: center;
+}
+
+.txt-sec3{
+    display: grid;
+    
+
+}
+
+.foto-sec3{
+    display: grid;
+    justify-content: center;
+   
+}
+
+#frase{
+    color: #ffb800;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 4  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec4{
+    background-image: url(/img//desbravadores/planetary-systems\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+}
+
+.sec4 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec4 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 5  */
+/*-=-=-=-=-=-=-=-*/
+.sec5{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    background-color: #030712;
+    padding: 80px;
+}
+
+.sec5 h1{
+    font-family: Racing Sans One;
+    font-size: 50px;
+    margin: 0;
+    text-align: left;
+}
+
+.sec5 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
+    text-align: justify;
+    margin: 0%;
+}
+
+.sec5 img{
+    margin: 0;
+}
+
+.txt-sec5{
+    display: grid;
+    justify-content: center;
+}
+
+.foto-sec5{
+    display: grid;
+    justify-content: center;
+}
+
+#frase{
+    color: #ffb800;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 6  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec6{
+    background-image: url(/img//desbravadores/maça.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 300px;
+
+}
+
+.sec6 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec6 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 7  */
+/*-=-=-=-=-=-=-=-*/
+.sec7{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #030712;
+    padding: 80px;
+    margin: auto;
+}
+
+.sec7 h1{
+    font-family: Racing Sans One;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+.sec7 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.sec7 img{
+    display: grid;
+    justify-content: center;
+}
+
+.txt-sec7{
+    display: grid;
+    
+
+}
+
+.foto-sec7{
+    display: grid;
+    justify-content: center;
+   
+}
+
+#frase{
+    color: #ffb800;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 8  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec8{
+    background-image: url(/img//desbravadores/urano.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 250px;
+
+}
+
+.sec8 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec8 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 9  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec9{
+    background-image: url(/img//desbravadores/plutao.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 300px;
+
+}
+
+.sec9 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec9 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*     SECTION 10  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec10{
+    background-image: url(/img/desbravadores/chmapa.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 300px;
+
+}
+
+.sec10 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec10 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   SECTION 11  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec11{
+    background-image: url(/img/desbravadores/carl.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+}
+
+.sec11 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec11 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   SECTION 12  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec12{
+    background-image: url(/img/desbravadores/web-first-images-release.jpg);
+    
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 150px;
+
+}
+
+.sec12 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec12 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*   SECTION 13  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec13{
+    background-image: url(/img/desbravadores/einstenzito.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    padding-top: 100px;
+    padding-bottom: 250px;
+
+}
+
+.sec13 h1{
+    font-size: 65px;
+    text-align: left;
+    padding-bottom: 0%;
+    
+    
+}
+
+.sec13 p{
+    max-width: 60%;
+    font-family: Lexend;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   Last  */
+/*-=-=-=-=-=-=-=-*/
+
+.sec14{
+    background-color: #ffb800;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+    
+}
+
+.sec14 p{
+    font-family: Lexend;
+    font-size: 16px;
+    text-align: center;
+    color: #303030;
+    max-width: 70%;
+    margin: 0%;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   Foooter     */
+/*-=-=-=-=-=-=-=-*/
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}

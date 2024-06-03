@@ -1,0 +1,393 @@
+*{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     HEADER   */
+/*-=-=-=-=-=-=-=-*/
+
+header{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.46) 0%, rgb(0, 0, 0) 100%), url(../img/luas/lua\ bandeira.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column
+}
+
+h1{
+    font-family: Roboto;
+    width: 719px;
+    position: relative;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto;
+    color: #d9d9d9;
+    text-align: right;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+p{
+
+    position: relative;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 75px;
+    margin-left: 50px;
+
+}
+
+.botao{
+    background-color: #ffb800;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+    
+}
+
+#texto-botao{
+    text-decoration: none;
+    font-family: Roboto;
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.botao:hover{
+    scale: 1.1;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    scale: 1.01;
+}
+
+
+
+/*-=-=-=-=-=-=-=-*/
+/*      SEC1      */
+/*-=-=-=-=-=-=-=-*/
+
+.sec1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.sec1 h1{
+    font-family: Racing Sans One;
+    font-size: 39.6px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    grid-area: text;
+    
+   
+    
+}
+
+.txt-sec1{
+    display: flex;
+    flex-direction: column;
+    color: #d9d9d9;
+   align-self: top;
+   max-width: 90%;
+  
+    
+    
+}
+
+.sec1 p{
+    font-size: 16.9px;
+    font-family: Lexend;
+    grid-area: "text";
+    
+}
+
+.img-sec1{
+    grid-area: "img";
+    width: 519px;
+    margin: auto;
+    
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*      SEC2      */
+/*-=-=-=-=-=-=-=-*/
+.sec2{
+    background-color: #d9d9d9;
+    padding: 80px;
+    margin: auto;
+   
+}
+
+.img-sec2 {
+    width: 123px;
+    height: 123px;
+}
+
+.sec2 ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.sec2 li{
+    display: flex;
+    gap: 10px;
+}
+
+.sec2 h2{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    display: flex;
+
+}
+
+#p-sec2 {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: black;
+    font-weight: 500;  
+    margin: 0;
+}
+    
+
+/*-=-=-=-=-=-=-=-*/
+/*      SEC3      */
+/*-=-=-=-=-=-=-=-*/
+
+.sec3{
+    background-image: url(../img/luas/luaeterra\ 1.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
+#h1-sec3{
+    font-family: Racing Sans One;
+    font-size: 39.6px;
+    text-align: left;
+}
+
+.sec3 p{
+    font-family: lexend;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 86%;
+}
+
+.img-sec3{
+    display: grid;
+    grid-template-areas: 
+    "1 2"
+    "3 4"
+    "5 6";
+    /* grid-template-columns: 1fr 2fr; */
+    align-items: center;
+    gap: 15px 0px;
+    
+}
+
+.sec2 ul{
+    margin-top: 0;
+}
+
+#one{
+    grid-area: "1";
+}
+
+#two{
+    grid-area: "2";
+}
+
+#three{
+    grid-area: "3";
+}
+
+#four{
+    grid-area: "4";
+}
+
+#five{
+    grid-area: "5";
+}
+
+#six{
+    grid-area: "6";
+}
+
+
+
+/*-=-=-=-=-=-=-=-*/
+/*      SEC4      */
+/*-=-=-=-=-=-=-=-*/
+.sec4{
+    display: grid;
+    grid-template-columns: 1fr 0.9fr 2fr;
+    background-color: #D9D9D9;
+}
+
+.div-img-sec4{
+    background-image: url(../img/luas/APOLLO11\ 1.png);
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+.apollo-sec4{
+font-family: Lexend;
+text-align: center;
+text-transform: uppercase;
+margin: auto;
+font-weight: 500;
+}
+
+.apollo-sec4 img{
+    width: 900px;
+}
+
+.txt-sec4 h1{
+    margin: 0%;
+    color: #1e1e1e;
+    text-align: left;
+
+}
+
+.txt-sec4 p{
+    font-family: Lexend;
+    color: #1e1e1e;
+    font-weight: 600;
+    text-align: justify;
+    margin: 1px;
+    word-break: break-all;
+    font-size: 18px;
+}
+
+.txt-sec4 img{
+    float: right;
+    border: transparent thin solid;
+    padding: 5px;
+    padding-bottom: 80px;
+    margin: -28px 0px 0px 0px;
+    max-width: 250px;
+    
+}
+
+.txt-sec4{
+    padding: 20px;
+}
+
+#txtneil{
+    font-weight: 300;
+}
+
+
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   Foooter     */
+/*-=-=-=-=-=-=-=-*/
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
