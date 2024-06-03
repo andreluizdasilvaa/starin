@@ -1,0 +1,329 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.hero-section {
+    
+   
+    background-position: top right;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(.//img/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+  
+}
+.hero-section h1 {
+    font-size: 4rem;
+    color: #fff;
+    border-radius: 50%;
+}
+.content-section {
+    padding: 40px 0;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+    background-color: #000;
+}
+
+.content-section-data {
+  
+    background-color: #000000;
+    border-radius: 30%; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: center center ;
+    height: 100%;
+}
+
+.content-section-data  > div {
+    width: 300px;    
+}
+
+.content-section h2 {
+    margin-bottom: 30px;
+    border-radius: 50%;
+
+}
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    background-color: #000000;
+}
+
+.footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.card-body{
+    height: 300px;
+    border-radius: 50px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.section {
+    padding: 60px 20px;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #000000;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.back-to-top.show {
+    opacity: 1;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#patrocinadores {
+    padding: 50px 0;
+}
+
+
+#patrocinadores h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+
+.sponsor {
+    text-align: center;
+}
+
+
+.sponsor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+ .equipe {
+    background-position: top right;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(.//img/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+}
+
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
+
+
+.mb-4 {
+    border-radius: 18px;
+    display: flex;
+
+}
+
+
+.hover-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hover-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+ 
