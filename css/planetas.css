@@ -7,19 +7,30 @@ body {
     background-image: url(../img/planetas/starsbackground.gif);
 }
 
-.titulo-main {
-    color: #FFB800;
+h1{
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+.titulo-main {
+    display: flex;
+    flex-direction: column;
+    color: #FFB800;
     font-family: racing sans one;
-    margin: 120px 600px 20px 600px;
+    margin: 120px 0px 20px 0px;
+    width: 100%;
     font-size: 70px;
-    border-bottom: groove 2px#D9D9D9;
 }
 
 .definicao {
     background-color: rgb(49, 49, 49);
     color: white;
     display: flex;
+    padding-left: 20px;
 }
 
 .all-text-definicao {
