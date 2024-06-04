@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/planetas/starsbackground.gif);
+}
+
+.titulo-main {
+    color: #FFB800;
+    text-align: center;
+    font-family: racing sans one;
+    margin: 120px 600px 20px 600px;
+    font-size: 70px;
+    border-bottom: groove 2px#D9D9D9;
+}
+
+.definicao {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+}
+
+.all-text-definicao {
+    display: flex;
+    flex-direction: column;
+}
+
+.astronautinha-flip {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width:190px;
+    margin-right: 20px;
+}
+
+.h3-definicao {
+    font-family: racing sans one;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.p-definicao-text {
+    font-family: racing sans one;
+    font-size: 30px;
+    margin-right: 1000px;
+    text-align: justify;
+}
+
+.titulo-paises {
+   color: white;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.h3-paises {
+    font-family: racing sans one;
+    font-size: 50px;
+}
+
+.h3-paises2 {
+    font-family: racing sans one;
+    font-size: 50px;
+    background-color: #ffb800;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*=*=*=*=*=*=*=*=*/
+/*   PLANETAS    */
+/*=*=*=*=*=*=*=*=*/
+
+.container-planeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img-planeta {
+    border-radius: 100%;
+    width: 500px;
+}
+
+.img-planeta-saturno {
+    width: 700px;
+}
+
+.h3-nome-planeta {
+    display: flex;
+    justify-content: center;
+    font-family: racing sans one;
+    font-size: 40px;
+    color: black;
+    background-color: #ffb800;
+    padding: 20px;
+}
+
+.planeta {
+    color: black;
+    background-color: white;
+    font-family: racing sans one;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 200px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+}
+
+.titulo-planeta {
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-text-planeta {
+    font-family: roboto condensed;
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px 70px 20px 70px;
+}
+
+.imagem {
+    margin-top: 50px;
+}
+
+/*=*=*=*=*=*=*=*=*=*/
+/*     FOOTER      */
+/*=*=*=*=*=*=*=*=*=*/
+
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
