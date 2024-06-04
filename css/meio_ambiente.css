@@ -61,7 +61,7 @@ header ul li a:hover {
 
     background-color: black;
     color: white;
-    box-shadow: 0px 0px 50px white;
+    box-shadow: 0px 0px 50px white;/* sombra branca em volta */
     border-radius: 30px;
     margin: 60px auto;
 
