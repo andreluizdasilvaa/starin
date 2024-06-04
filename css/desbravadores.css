@@ -135,7 +135,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec2{
-    background-image: url(/img//desbravadores/saturn-rings\ 1.png);
+    background-image: url(../img//desbravadores/saturn-rings\ 1.png);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -209,7 +209,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec4{
-    background-image: url(/img//desbravadores/planetary-systems\ \(1\).jpg);
+    background-image: url(../img//desbravadores/planetary-systems\ \(1\).jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -281,7 +281,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec6{
-    background-image: url(/img//desbravadores/maça.jpg);
+    background-image: url(../img//desbravadores/maça.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -357,7 +357,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec8{
-    background-image: url(/img//desbravadores/urano.jpg);
+    background-image: url(../img//desbravadores/urano.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -384,7 +384,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec9{
-    background-image: url(/img//desbravadores/plutao.jpg);
+    background-image: url(../img//desbravadores/plutao.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -412,7 +412,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec10{
-    background-image: url(/img/desbravadores/chmapa.jpg);
+    background-image: url(../img/desbravadores/chmapa.jpg);
     /* background-size: cover; */
     background-attachment: fixed;
     display: grid;
@@ -440,7 +440,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec11{
-    background-image: url(/img/desbravadores/carl.jpeg);
+    background-image: url(../img/desbravadores/carl.jpeg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -468,7 +468,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec12{
-    background-image: url(/img/desbravadores/web-first-images-release.jpg);
+    background-image: url(../img/desbravadores/web-first-images-release.jpg);
     
     background-attachment: fixed;
     display: grid;
@@ -495,7 +495,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec13{
-    background-image: url(/img/desbravadores/einstenzito.jpeg);
+    background-image: url(../img/desbravadores/einstenzito.jpeg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
