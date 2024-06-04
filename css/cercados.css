@@ -13,7 +13,7 @@ body{
 /*-=-=-=-=-=-=-=-*/
 
 header{
-    background-image: url(../img/cercados/Rectangle\ 1\ \(1\).png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.62) 50.38%, #000 81.11%), url(../img/cercados/fotoheader.png) lightgray 50% / cover no-repeat;
     background-size: cover;
     background-position: center center;
     display: flex;
@@ -134,7 +134,7 @@ button:hover{
 /*      SEC2      */
 /*-=-=-=-=-=-=-=-*/
 .sec2{
-    background-color: #d9d9d9;
+    background-color: #000000;
     padding: 50px;
     margin: auto;
    
@@ -159,7 +159,7 @@ button:hover{
 .sec2 h2{
     font-family: "Roboto";
     font-size: 18px;
-    color: black;
+    color: #d9d9d9;
     font-weight: 900;
     display: flex;
     text-transform: uppercase;
@@ -169,7 +169,115 @@ button:hover{
 #p-sec2 {
     font-family: "Roboto";
     font-size: 16px;
-    color: black;
+    color: #b9b9b9;
     font-weight: 500;  
     margin: 0;
 }
+
+/*-=-=-=-=-=-=-=-*/
+/*   RESPIRO1  */
+/*-=-=-=-=-=-=-=-*/
+
+.respiro1{
+    height: 600px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.808) 0%, rgba(0, 0, 0, 0.808) 100%), url(../img/cercados/Design\ sem\ nome.gif) lightgray 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p-respiro{
+    font-family: lexend;
+    text-align: center;
+    font-size: 25px;
+    color: #d9d9d9;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   Foooter     */
+/*-=-=-=-=-=-=-=-*/
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: "Lexend";
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: "Lexend";
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: "Lexend";
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
+
+
+
+
+
+
