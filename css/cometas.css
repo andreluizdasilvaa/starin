@@ -39,7 +39,7 @@ body {
 .p-cometas {
     font-family: roboto condensed;
     color: white;
-    background-color: rgb(51, 55, 61);
+    background-color: rgb(28, 28, 29);
     text-align: justify;
     margin: 20px 0px 20px 0px;
     max-width: 800px;
@@ -74,12 +74,15 @@ body {
 .type {
     border-radius: 20px;
     padding: 20px;
-    margin: 20px 0px 10px 0px;
+    margin: 20px 0px 10px 400px;
     background-color: rgb(20, 20, 20);
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    justify-self: center;
+    max-width: 1200px;
 }
 
 .text-types {
