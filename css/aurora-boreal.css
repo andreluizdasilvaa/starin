@@ -44,7 +44,7 @@ margin-bottom: 50px;
 font-family: racing sans one;
 font-size: 60px;
 border-bottom: groove 2px #030712;
-margin-right: 300px;
+max-width: 800px;
 }
 
 .p-explicacao {
@@ -52,7 +52,7 @@ color: #030712;
 font-family: roboto condensed;
 font-size: 30px;
 text-align: justify;
-margin-right: 300px;
+max-width: 800px;
 }
 
 
@@ -65,12 +65,13 @@ display: flex;
 flex-direction: column;
 margin-top: 150px;
 margin-bottom: 300px;
+align-items: center;
 }
 
 .text-vs {
 background-color: white;
 color: #030712;
-margin: 0px 500px 0px 500px;
+max-width: 1200px;
 padding: 20px 50px 50px 50px;
 border-radius: 0px 30px 30px 30px;
 }
