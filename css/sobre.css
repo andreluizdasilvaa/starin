@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(.//img/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(../img/img_sobre/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
   
 }
 .hero-section h1 {
