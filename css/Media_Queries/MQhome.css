@@ -1,0 +1,62 @@
+/* Texto - img da section meio ambiente*/
+@media screen and (max-width: 1500px) {
+    .sec1 img {
+        width: 590px; /*790*/
+    }
+
+    .sec1 h1 {
+        font-size: 7,5em;
+    }
+
+    .sec1 p {
+        font-size: 15px;
+    }
+
+    .cardsq h2 {
+        font-size: 30px;
+    }
+
+    .cardsq ul li img {
+        max-height: 320px;
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .sec1 img {
+        width: 470px; /*790*/
+    }
+
+    .sec1 h1 {
+        font-size: 6em;
+    }
+
+    .sec1 p {
+        font-size: 11px;
+    }
+
+    .cardsq h2 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+/* texto da section/rodapé, "satelites naturais"/"..Estamos cercados | deixar por ultimo - grid..*/
+@media screen and (max-width: 1606px) {
+    .sec3_sobrelua ul li h3 {
+        font-size: 23px;
+    }
+
+    .sec3_sobrelua ul li p {
+        font-size: 15px;
+    }
+
+    .sec3_sobrelua ul li img {
+        max-width: 100px;
+    }
+}

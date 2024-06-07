@@ -17,9 +17,8 @@ body {
     scroll-behavior: smooth;
 }
 
-/*-=-=-=-=-=-=-=-=*/
-/*     HEADER     */
-/*-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=*/
+/* HEADER */
 
 header {
     margin: auto;
@@ -71,9 +70,8 @@ header h1 {
     scale: 1.05;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*      NAV      */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-*/
+/* NAV */
 
 nav {
     margin: auto;
@@ -142,9 +140,8 @@ nav ul input {
     font-weight: 700;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*    SECTION 1  */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-*/
+/* SECTION 1 */
 
 .sec1 {
     display: flex;
@@ -203,15 +200,14 @@ nav ul input {
     background-color: #1D6903;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*    SECTION 2  */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-*/
+/* SECTION 2 */
 
 section.sec2 {
     margin: auto;
     background-color: #D9D9D9;
-    width: 1250px;
-    height: 190px;
+    max-width: 1250px;
+    min-height: 190px;
     padding: 50px;
     border-radius: 0px 30px 30px;
     margin-top: 50px;
@@ -227,9 +223,8 @@ section.sec2 P {
     color: black;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*   CARROSEL    */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=*/
+/* CARROSEL */
 
 div.swiffy-slider {
     max-width: 1069px;
@@ -245,9 +240,8 @@ video::-webkit-media-controls {
     display: none;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-*/
-/*    SECTION 3 1/2    */
-/*-=-=-=-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-=-=-*/
+/* SECTION 3 1/2 */
 
 .sec3_paralax {
     width: 100%;
@@ -293,9 +287,8 @@ video::-webkit-media-controls {
     color: #FFB800;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-*/
-/*    SECTION 3 2/2    */
-/*-=-=-=-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-=-=-*/
+/* SECTION 3 2/2 */
 
 .sec3_sobrelua {
     background-color: #080808;
@@ -322,12 +315,14 @@ video::-webkit-media-controls {
 }
 
 .sec3_sobrelua ul li img {
+    max-height: 150px;
     max-width: 150px;
     margin-left: 50px;
     border-radius: 50%;
 }
 
 .sec3_sobrelua ul li {
+    margin: 10px;
     display: flex;
 }
 
@@ -353,9 +348,8 @@ video::-webkit-media-controls {
     font-size: 1.5em;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*   cartões Q   */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-*/
+/* cartões Q */
 
 .cardsq h2 {
     text-align: center;
@@ -387,9 +381,8 @@ section.cardsq ul li img:hover {
     /* Aumenta o tamanho em 10% ao passar o mouse */
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-*/
-/*      SECTION 4      */
-/*-=-=-=-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-*/
+/* SECTION 4 */
 
 .sec4 {
     width: 100%;
@@ -435,9 +428,8 @@ section.cardsq ul li img:hover {
     color: #FFB800;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*   SECTION 5   */
-/*-=-=-=-=-=-=-=-*/
+/*-=-=-=-=-=-*/
+/* SECTION 5 */
 
 .sec5_head {
     width: 1230px;
@@ -500,9 +492,8 @@ section.cardsq ul li img:hover {
     color: #FFB800;
 }
 
-/*-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-/*  SECTION Ventos Solares  */
-/*-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*-=-=-=-=-=-=-=-=-=-=-=-=*/
+/* SECTION Ventos Solares */
 
 .solarwind {
     box-sizing: border-box;
@@ -657,9 +648,13 @@ section.cardsq ul li img:hover {
     font-weight: bold;
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*   Foooter     */
-/*-=-=-=-=-=-=-=-*/
+/*voltar ao topo */
+#flex-voltar {
+    text-align: end;
+}
+
+/*-=-=-=-=-*/
+/* Foooter */
 
 footer {
     width: 100%;
@@ -673,7 +668,6 @@ footer {
     justify-items: center;
 }
 
-
 .ft-contatos img{
     width: 30px;
     padding: 10px;
@@ -685,13 +679,11 @@ footer {
     margin-left: 100px;
 }
 
-
 .ul{
-display: flex;
-list-style: none;
-gap: 5px;
-align-items: center;
-
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
 }
 
 .li{
@@ -710,7 +702,6 @@ align-items: center;
 label {
     font-size: 12px;
     font-family: "Lexend";
-
 }
 
 #footer-subscribe{
@@ -739,7 +730,6 @@ input{
 
 /*=-=-=-=--=-=-=-=*/
 /* VOLTAR AO TOPO */
-/*=-=-=-=--=-=-=-=*/
 
 #voltartopo {
     width: 80px;

@@ -190,8 +190,6 @@ h4 {
     transform: scale(1.05);
 }
 
-
-
 /*=*=*=*=*=*=*=*=*=*/
 /*     FOOTER      */
 /*=*=*=*=*=*=*=*=*=*/
@@ -209,7 +207,6 @@ footer {
     justify-items: center;
 }
 
-
 .ft-contatos img{
     width: 30px;
     padding: 10px;
@@ -226,7 +223,6 @@ footer {
     list-style: none;
     gap: 5px;
     align-items: center;
-
 }
 
 .li{

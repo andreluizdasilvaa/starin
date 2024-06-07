@@ -5,12 +5,10 @@
 body{
     margin: 0;
     padding: 0;
-
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*     HEADER   */
-/*-=-=-=-=-=-=-=-*/
+/*========*/
+/* HEADER */
 
 header{
     background:linear-gradient(180deg, rgba(0, 0, 0, 0.46) 0%, rgb(0, 0, 0) 100%), url(../img/luas/lua\ bandeira.jpg);
@@ -35,7 +33,6 @@ h1{
 }
 
 p{
-
     position: relative;
     font-size: 20px;
     font-family: Roboto;
@@ -44,7 +41,6 @@ p{
     display: inline-block;
     height: 75px;
     margin-left: 50px;
-
 }
 
 .botao{
@@ -57,8 +53,6 @@ p{
     transition: all 0.3s;
     margin-bottom: 50px;
     margin-left: 50px;
-    
-    
 }
 
 #texto-botao{
@@ -84,11 +78,8 @@ button:hover{
     scale: 1.01;
 }
 
-
-
-/*-=-=-=-=-=-=-=-*/
-/*      SEC1      */
-/*-=-=-=-=-=-=-=-*/
+/*======*/
+/* SEC1 */
 
 .sec1{
     display: grid;
@@ -96,7 +87,6 @@ button:hover{
     background-color: black;
     padding-top: 100px;
     padding-bottom: 50px;
-
 }
 
 .sec1 h1{
@@ -105,20 +95,14 @@ button:hover{
     text-transform: uppercase;
     text-decoration: none;
     grid-area: text;
-    
-   
-    
 }
 
 .txt-sec1{
     display: flex;
     flex-direction: column;
     color: #d9d9d9;
-   align-self: top;
-   max-width: 90%;
-  
-    
-    
+    align-self: top;
+    max-width: 90%;
 }
 
 .sec1 p{
@@ -132,17 +116,15 @@ button:hover{
     grid-area: "img";
     width: 519px;
     margin: auto;
-    
 }
 
-/*-=-=-=-=-=-=-=-*/
-/*      SEC2      */
-/*-=-=-=-=-=-=-=-*/
+/*======*/
+/* SEC2 */
+
 .sec2{
     background-color: #d9d9d9;
     padding: 80px;
     margin: auto;
-   
 }
 
 .img-sec2 {
@@ -167,7 +149,6 @@ button:hover{
     color: black;
     font-weight: 900;
     display: flex;
-
 }
 
 #p-sec2 {
@@ -177,11 +158,9 @@ button:hover{
     font-weight: 500;  
     margin: 0;
 }
-    
 
-/*-=-=-=-=-=-=-=-*/
-/*      SEC3      */
-/*-=-=-=-=-=-=-=-*/
+/*======*/
+/* SEC3 */
 
 .sec3{
     background-image: url(../img/luas/luaeterra\ 1.png);
@@ -220,36 +199,22 @@ button:hover{
 .sec2 ul{
     margin-top: 0;
 }
+    
+#one{grid-area: "1";}
+    
+#two{grid-area: "2";}
+    
+#three{grid-area: "3";}
+    
+#four{grid-area: "4";}
 
-#one{
-    grid-area: "1";
-}
+#five{grid-area: "5";}
 
-#two{
-    grid-area: "2";
-}
+#six{grid-area: "6";}
+    
+/*======*/
+/* SEC4 */
 
-#three{
-    grid-area: "3";
-}
-
-#four{
-    grid-area: "4";
-}
-
-#five{
-    grid-area: "5";
-}
-
-#six{
-    grid-area: "6";
-}
-
-
-
-/*-=-=-=-=-=-=-=-*/
-/*      SEC4      */
-/*-=-=-=-=-=-=-=-*/
 .sec4{
     display: grid;
     grid-template-columns: 1fr 0.9fr 2fr;
@@ -263,11 +228,11 @@ button:hover{
 }
 
 .apollo-sec4{
-font-family: Lexend;
-text-align: center;
-text-transform: uppercase;
-margin: auto;
-font-weight: 500;
+    font-family: Lexend;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: 500;
 }
 
 .apollo-sec4 img{
@@ -278,7 +243,6 @@ font-weight: 500;
     margin: 0%;
     color: #1e1e1e;
     text-align: left;
-
 }
 
 .txt-sec4 p{
@@ -298,7 +262,6 @@ font-weight: 500;
     padding-bottom: 80px;
     margin: -28px 0px 0px 0px;
     max-width: 250px;
-    
 }
 
 .txt-sec4{
@@ -308,13 +271,8 @@ font-weight: 500;
 #txtneil{
     font-weight: 300;
 }
-
-
-
-
-/*-=-=-=-=-=-=-=-*/
-/*   Foooter     */
-/*-=-=-=-=-=-=-=-*/
+/*=========*/
+/* Foooter */
 
 footer {
     width: 100%;
@@ -327,7 +285,6 @@ footer {
     padding-bottom: 20px;
     justify-items: center;
 }
-
 
 .ft-contatos img{
     width: 30px;
@@ -342,11 +299,10 @@ footer {
 
 
 .ul{
-display: flex;
-list-style: none;
-gap: 5px;
-align-items: center;
-
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
 }
 
 .li{
@@ -365,7 +321,6 @@ align-items: center;
 label {
     font-size: 12px;
     font-family: Lexend;
-
 }
 
 #footer-subscribe{

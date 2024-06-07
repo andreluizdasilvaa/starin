@@ -9,7 +9,7 @@ body{
 }
 
 /*-=-=-=-=-=-=-=-*/
-/*     HEADER   */
+/*     HEADER    */
 /*-=-=-=-=-=-=-=-*/
 
 header{
@@ -35,7 +35,6 @@ h1{
 }
 
 p{
-
     position: relative;
     font-size: 20px;
     font-family: Roboto;
@@ -58,8 +57,6 @@ p{
     transition: all 0.3s;
     margin-bottom: 50px;
     margin-left: 50px;
-    
-    
 }
 
 #texto-botao{
@@ -87,8 +84,9 @@ button:hover{
 
 
 /*-=-=-=-=-=-=-=-*/
-/*     SECTION 1  */
+/*    SECTION 1  */
 /*-=-=-=-=-=-=-=-*/
+
 .sec1{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -121,7 +119,6 @@ button:hover{
 .img-sec1{
     display: grid;
     justify-content: center;
-    
 }
 
 #p-sec1-excessão{
@@ -129,15 +126,14 @@ button:hover{
     font-family: Lexend;
 }
 
+/*-=-=-=-=-=-=-=-*/
+/*     SEC2      */
+/*-=-=-=-=-=-=-=-*/
 
-/*-=-=-=-=-=-=-=-*/
-/*      SEC2      */
-/*-=-=-=-=-=-=-=-*/
 .sec2{
     background-color: #000000;
     padding: 50px;
     margin: auto;
-   
 }
 
 .img-sec2 {
@@ -163,7 +159,6 @@ button:hover{
     font-weight: 900;
     display: flex;
     text-transform: uppercase;
-
 }
 
 #p-sec2 {
@@ -175,7 +170,7 @@ button:hover{
 }
 
 /*-=-=-=-=-=-=-=-*/
-/*   RESPIRO1  */
+/*    RESPIRO1   */
 /*-=-=-=-=-=-=-=-*/
 
 .respiro1{
@@ -195,7 +190,6 @@ button:hover{
     color: #d9d9d9;
 }
 
-
 /*-=-=-=-=-=-=-=-*/
 /*   Foooter     */
 /*-=-=-=-=-=-=-=-*/
@@ -212,25 +206,21 @@ footer {
     justify-items: center;
 }
 
-
 .ft-contatos img{
     width: 30px;
     padding: 10px;
     padding-top: 0%;
-    
 }
 
 .ft-contatos{
     margin-left: 100px;
 }
 
-
 .ul{
-display: flex;
-list-style: none;
-gap: 5px;
-align-items: center;
-
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
 }
 
 .li{
@@ -249,7 +239,6 @@ align-items: center;
 label {
     font-size: 12px;
     font-family: "Lexend";
-
 }
 
 #footer-subscribe{
@@ -275,9 +264,3 @@ input{
 #submit:hover{
     scale: 1.05;
 }
-
-
-
-
-
-
