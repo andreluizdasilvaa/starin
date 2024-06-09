@@ -32,9 +32,10 @@
 </head>
 
 <body>
+    <script src="js/menu_burguer.js"></script>
     <!-- Header -->
-    <header>
-        <div class="content" id="topo">
+    <header id="topo">
+        <div class="content">
             <img src="img/Background/Logo.png" alt="logo">
             <div class="text_logo">
                 <h1>STAR.IN</h1>
@@ -47,24 +48,38 @@
 
     <!-- Menu de Navegação -->
     <nav>
+        <div class="conteiner_nav">
+            <ul>
+                <li><a href="#" class="pag_atual">O SISTEMA SOLAR</a></li>
+                <li><a href="html/planetas.html">PLANETAS</a></li>
+                <li><a href="html/desbravadores.html">DESBRAVADORES</a></li>
+                <li><a href="html/sobre.html">SOBRE NÓS</a></li>
+                <li>
+                    <form action="#" id="form_busca">
+                        <label for="pesquisar"></label>
+                        <input type="text" name="pesquisar" id="pesquisar" placeholder="O que procura, viajante?">
+                        <button type="submit" id="btn_busca"><span class="material-symbols-outlined">search</span></button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="conteiner_burguer_menu">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </div>
+    </nav>
+
+    <div class="menu_burger">
         <ul>
-            <li><a href="#" id="pag_atual">O SISTEMA SOLAR</a></li>
+            <li><a href="#" class="pag_atual" id="home_selecionado">O SISTEMA SOLAR</a></li>
             <li><a href="html/planetas.html">PLANETAS</a></li>
             <li><a href="html/desbravadores.html">DESBRAVADORES</a></li>
             <li><a href="html/sobre.html">SOBRE NÓS</a></li>
-            <li>
-                <form action="#" id="form_busca">
-                    <label for="pesquisar"></label>
-                    <input type="text" name="pesquisar" id="pesquisar" placeholder="O que procura, viajante?">
-                    <button type="submit" id="btn_busca"><span class="material-symbols-outlined">search</span></button>
-                </form>
-            </li>
         </ul>
-    </nav>
+    </div>
 
     <!--  Section1 "PLANETA TERRA"  -->
     <section class="sec1" id="terra">
-        <div>
+        <div class="text_planeta_terra__sec1">
             <h1>PLANETA <br>TERRA</h1>
             <p>Um planeta rochoso localizado no sistema solar, com uma <br> atmosfera composta principalmente de
                 nitrogênio e oxigênio. <br> Sua superfície é coberta por oceanos, terras e gelo, abrigando <br> uma
@@ -82,63 +97,65 @@
 
     <!-- Section2 "NOSSA VIZINHANÇA" -->
     <section class="sec2">
-        <h1>NOSSA VIZINHANÇA</h1>
-        <p>O sistema solar possui uma estrela, oito planetas, cinco planetas anões, pelo menos 290 luas, mais de 1,3
-            milhão de asteroides e cerca de 3.900 cometas. Ele está localizado em um braço espiral externo da Via Láctea
-            chamado Braço de Orion, ou Esporão de Orion. Nosso sistema solar orbita o centro da galáxia a cerca de
-            515.000 mph (828.000 kph). Leva cerca de 230 milhões de anos para completar uma órbita em torno do centro
-            galáctico.
-
-            Chamamos de sistema solar porque é composto pela nossa estrela, o Sol, e tudo o que está ligado a ele pela
-            gravidade - os planetas Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno; os planetas anões
-            Plutão, Ceres, Makemake, Haumea e Eris - juntamente com centenas de luas; e milhões de asteroides, cometas e
-            meteoroides.</p>
+        <div class="content_sec2">
+            <h1>NOSSA VIZINHANÇA</h1>
+            <p>O sistema solar possui uma estrela, oito planetas, cinco planetas anões, pelo menos 290 luas, mais de 1,3
+                milhão de asteroides e cerca de 3.900 cometas. Ele está localizado em um braço espiral externo da Via Láctea
+                chamado Braço de Orion, ou Esporão de Orion. Nosso sistema solar orbita o centro da galáxia a cerca de
+                515.000 mph (828.000 kph). Leva cerca de 230 milhões de anos para completar uma órbita em torno do centro
+                galáctico.
+                Chamamos de sistema solar porque é composto pela nossa estrela, o Sol, e tudo o que está ligado a ele pela
+                gravidade - os planetas Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano e Netuno; os planetas anões
+                Plutão, Ceres, Makemake, Haumea e Eris - juntamente com centenas de luas; e milhões de asteroides, cometas e
+                meteoroides.</p>
+        </div>
     </section>
 
     <!-- Carrosel -->
     <section>
-        <div class="swiffy-slider">
-            <ul class="slider-container">
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video1.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video2.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video3.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video4.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video5.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video6.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video7.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video8.mp4" type="video/mp4">
-                    </video>
-                </li>
-                <li><video controls loop autoplay muted>
-                        <source src="img/VideosCarrosel/video9.mp4" type="video/mp4">
-                    </video>
-                </li>
-            </ul>
-
-            <button type="button" class="slider-nav"></button>
-            <button type="button" class="slider-nav slider-nav-next"></button>
+        <div class="conteiner_carrosel">
+            <div class="swiffy-slider">
+                <ul class="slider-container">
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video1.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video2.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video3.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video4.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video5.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video6.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video7.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video8.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                    <li><video controls loop autoplay muted>
+                            <source src="img/VideosCarrosel/video9.mp4" type="video/mp4">
+                        </video>
+                    </li>
+                </ul>
+                <button type="button" class="slider-nav"></button>
+                <button type="button" class="slider-nav slider-nav-next"></button>
+            </div>
         </div>
     </section>
 
@@ -222,7 +239,7 @@
                         <h3><a href="html/cercados.html">
                                 <h3>CINTURÃO DE ASTEROIDES</h3>
                             </a></h3>
-                        <p>Região rochosa entre Marte e<br> Júpiter.</p>
+                        <p>Região rochosa entre Marte e Júpiter.</p>
                     </div>
                 </li>
 
@@ -233,7 +250,7 @@
                         <h3><a href="html/cercados.html">
                                 <h3>CINTURÃO DE KUIPER</h3>
                             </a></h3>
-                        <p>Região gelada além de<br> Netuno com corpos celestes<br> pequenos.</p>
+                        <p>Região gelada além de Netuno com corpos celestes pequenos.</p>
                     </div>
                 </li>
 
@@ -243,7 +260,7 @@
                         <h3><a href="html/cercados.html">
                                 <h3>NUVEM DE OORT</h3>
                             </a></h3>
-                        <p>Reservatório distante de<br> cometas e corpos gelados<br> interplanetários.</p>
+                        <p>Reservatório distante de cometas e corpos gelados interplanetários.</p>
                     </div>
                 </li>
 
@@ -253,7 +270,7 @@
                         <h3><a href="html/cercados.html">
                                 <h3>OS CINTURÕES E O PLANETA TERRA</h3>
                             </a></h3>
-                        <p>Cinturões afetam a gravidade<br> devido à sua massa<br> significativa.</p>
+                        <p>Cinturões afetam a gravidade devido à sua massa significativa.</p>
                     </div>
                 </li>
             </ul>
@@ -364,7 +381,7 @@
     <!-- Rodapé julia-->
     <footer>
         <div class="ft-logo">
-            <a href="#"><img src="img/luas/Group 11.png" width="240px"></a>
+            <a href="#"><img src="img/luas/Group 11.png" width="240px" id="Logo_footer"></a>
             <div class="ft-contatos">
                 <img src="img/luas/facebook.png">
                 <img src="img/luas/instagram.png">
