@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #000000;
 
 }
 
@@ -142,7 +143,7 @@ button:hover{
 }
 
 .sec2 h1{
-    font-family: Racing Sans One;
+    font-family: Lexend;
     font-size: 40px;
     color: #d9d9d9;
 }
@@ -161,7 +162,7 @@ button:hover{
 }
 
 .sec3 h1{
-    font-family: Racing Sans One;
+    font-family: Lexend;
     font-size: 40px;
     color: #d9d9d9;
 }
@@ -188,5 +189,11 @@ button:hover{
     color: #ffb800;
 }
 
+.sec_3 {
+    margin: auto;
+    width: 1060px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
