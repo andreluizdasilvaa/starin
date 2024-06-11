@@ -15,6 +15,8 @@ body {
     background-image: url(../img/Background/Background.gif);
     background-size: 100vh;
     scroll-behavior: smooth;
+
+    font-size: 16px;
 }
 
 /*-=-=-=-=*/
@@ -555,7 +557,9 @@ section.cardsq ul li img:hover {
     box-sizing: border-box;
     margin: auto;
     display: flex;
-    min-height: 707px;
+    /* min-height: 707px; */
+    min-height: 527px;
+    padding: 30px;
     background-color: #030712;
     margin-top: 50px;
     margin-bottom: 50px;

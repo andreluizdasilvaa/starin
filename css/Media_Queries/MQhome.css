@@ -93,15 +93,6 @@
 
 @media screen and (max-width: 1071px) {
 
-    header {
-        height: 390px;
-    }
-
-    header img {
-        max-width: 200px;
-        margin-right: 30px;
-    }
-
     nav ul {
         font-size: .8em;
     }
@@ -113,20 +104,6 @@
 
     #btn_busca span {
         font-size: 25px;
-    }
-
-    .text_logo P {
-        max-width: 350px;
-        font-size: 13px;
-    }
-
-    header h1 {
-        font-size: 4.5em;
-    }
-
-    .button_padrao{
-        font-size: 12px;
-        padding: 8px 14px;
     }
 
     .text_planeta_terra__sec1 {
@@ -246,6 +223,25 @@
 
     header {
         height: 300px;
+    }
+
+    header img {
+        max-width: 200px;
+        margin-right: 30px;
+    }
+
+    .text_logo P {
+        max-width: 350px;
+        font-size: 13px;
+    }
+
+    header h1 {
+        font-size: 4.5em;
+    }
+
+    .button_padrao{
+        font-size: 12px;
+        padding: 8px 14px;
     }
 
     .conteiner_nav {
@@ -373,7 +369,6 @@
 
     #Logo_footer {
         width: 150px;
-        
     }
 
     .ft-contatos {
@@ -388,6 +383,11 @@
 
 @media screen and (max-width: 600px) {
 
+    header {
+        background-position: center;
+        height: 250px;
+    }
+
     .sec1 h1 {
         text-align: center;
         font-size: 6em;
@@ -398,17 +398,13 @@
         font-size: 13px;
     }
 
-    header {
-        height: 250px;
-    }
-
     .text_button {
         margin: 0;
         width: 400px;
     }
 
     .sec3_paralax h2,
-    .sec4 h2{
+    .sec4 h2 {
         font-size: 2.6em;
     }
 
@@ -438,8 +434,13 @@
         max-width: 200px;
     }
 
-    .sec4 h2 {margin: 0px 0px 30px 20px;}
-    .sec3_paralax h2 {margin: 0px 0px 30px 20px;}
+    .sec4 h2 {
+        margin: 0px 0px 30px 20px;
+    }
+    
+    .sec3_paralax h2 {
+        margin: 0px 0px 30px 20px;
+    }
 
     .sec4 p,
     .sec3_paralax p {
@@ -453,13 +454,32 @@
 }
 
 @media screen and (max-width: 520px) {
-    header {
-        background-position: center;
-        height: 230px;
+
+    header img {
+        width: 110px;
     }
 
-    section.cardsq ul li {
+    .text_logo p {
+        font-size: 9px;
+        max-width: 230px;
+    }
+
+    .text_logo h1 {
+        font-size: 3em;
+        max-width: 230px;
+    }
+
+    #button_header {
+        width: 116px;
+        font-size: 10px;
+    }
+
+    .cardsq ul li {
         margin: 15px;
+    }
+
+    #photos-solarwind img {
+        display: none;
     }
 }
 
@@ -478,15 +498,27 @@
     }
 
     header img {
-        width: 120px;
+        width: 100px;
     }
 
     section.cardsq ul li {
         margin: 10px;
     }
 
-    #photos-solarwind img {
-        width: 125px;
-        height: 85px;
+    .sec1 h1 {
+        font-size: 5em;
+    }
+
+    .sec1 p {
+        font-size: 11px;
+    }
+
+    .text_button {
+        max-width: 299px;
+    }
+
+    .text_button a {
+        width: 100px;
+        font-size: 12px;
     }
 }
