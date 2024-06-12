@@ -388,6 +388,10 @@
         height: 250px;
     }
 
+    nav {
+        height: 100px;
+    }
+
     .sec1 h1 {
         text-align: center;
         font-size: 6em;
@@ -478,6 +482,10 @@
         margin: 15px;
     }
 
+    section.cardsq ul li img {
+        width: 160px;
+    }
+
     #photos-solarwind img {
         display: none;
     }
@@ -520,5 +528,22 @@
     .text_button a {
         width: 100px;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .sec3_sobrelua ul {
+        margin-left: 40px;
+        justify-content: start;
+    }
+
+    #Logo_footer {
+        width: 120px;
+    }
+
+    footer .ul li a {
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
     }
 }
