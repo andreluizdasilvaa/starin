@@ -101,7 +101,7 @@ button:hover{
 }
 
 .img-sec1{
-    background-image: url(../img/asteroides/asteroidevideo.jpg);
+    background-image: url(../img/asteroides/videosec2.mp4);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -197,3 +197,130 @@ button:hover{
 }
 
 
+.titulo{
+    font-family: lexend;
+    color: #d9d9d9;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   cartões Q   */
+
+section.cardsq ul {
+    display: flex;
+    justify-content: center;
+}
+
+section.cardsq ul li {
+    margin: 50px;
+}
+
+section.cardsq ul li img {
+    box-sizing: border-box;
+    width: 450px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section.cardsq ul li img:hover {
+    transform: scale(1.1);
+}
+
+/*-=-=-=--*/
+/*  Last  */
+/*-=-=-=--*/
+
+.sec-final{
+    background-color: #ffb800;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sec-final p{
+    font-family: Lexend;
+    font-size: 16px;
+    text-align: center;
+    color: #303030;
+    max-width: 70%;
+    margin: 0%;
+}
+
+
+/*-=-=-=-=-=-=-=-*/
+/*   Foooter     */
+/*-=-=-=-=-=-=-=-*/
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #030712;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+    align-items: center;
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
