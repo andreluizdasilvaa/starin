@@ -496,8 +496,6 @@ section.cardsq ul li img:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    display: none;/* <-- para me ajudar com a responsividade, pode remover caso for fazer essa parte */
 }
 
 .sec5_head h2 {
@@ -510,45 +508,74 @@ section.cardsq ul li img:hover {
     font-size: bold;
 }
 
-.sec5_body {
-    width: 1230px;
-    padding: 20px;
-    color: white;
-    background-color: #000000;
-    margin: auto;
+.primeiro {
+    background-image: url('../img/Planetas anões/1.png');
+  }
+  
+  .segundo {
+    background-image: url('../img/Planetas anões/2.png');
+  }
+  
+  .terceiro {
+    background-image: url('../img/Planetas anões/3.png');
+  }
+  
+  .quarto {
+    background-image: url('../img/Planetas anões/4.png');
+  }
 
-    display: none;/* <-- para me ajudar com a responsividade, pode remover caso for fazer essa parte */
-}
-
-.sec5_body p {
-    color: white;
-}
-
-.sec5_body li {
-    transition: transform 0.3s
-}
-
-.sec5_body li:hover {
-    transform: scale(1.1)
-}
-
-.sec5_body ul {
+  .cinco {
+    background-image: url('../img/Planetas anões/5.png');
+  }
+  .container_sec5 {
+    width: 1270px;
+    height: 600px;
     display: flex;
-    justify-content: space-around;
-    gap: 30px;
-    margin: 50px;
-}
+    flex-direction: row;
+    border-radius: 0px 0px 30px 30px;
+    margin: auto;
+  }
 
-.sec5_body ul li img {
-    width: 200px;
-    border-radius: 20px;
-}
+  .item {
+    flex-grow: 1;
+    background-position: left center;
+    background-size: cover;
+    filter: grayscale(100%);
+    position: relative;
+    list-style: none; /*retira as marcações da lista*/
+    transition: all 0.7s ease-in-out; /* início e fim lentos*/
+    }
+  
+  .item:hover {
+    flex-grow: 3;
+    filter: grayscale(0%); /*volta a cor original*/
+  }
+  
+  .item a {
+    width: 100%;
+    height: 100%;
+    display: flex; /*centralizar o texto*/
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
 
-.sec5_body ul li h2 {
-    font-family: racing;
-    font-size: 2.3em;
+  .text {
+    font-size: 0; /*fica invisível quando o item estiver no estado normal*/
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
     color: #FFB800;
-}
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .item:hover .text {
+    /*passando o mouse em cima de algum item o text receberá as conf abaixo*/
+    font-size: 32px;
+    text-shadow: 2px 2px 12px black;
+  }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* SECTION Ventos Solares */
