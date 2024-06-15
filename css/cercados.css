@@ -32,7 +32,7 @@ header{
     background-position: center center;
     display: flex;
     flex-direction: column;
-    height: 700px; 
+    height: 800px; 
 }
 
 h1{
@@ -61,29 +61,6 @@ p{
 
 }
 
-.botao{
-    background-color: #ffb800;
-    border-radius: 7px;
-    border: none;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    transition: all 0.3s;
-    margin-bottom: 50px;
-    margin-left: 50px;
-}
-
-#texto-botao{
-    text-decoration: none;
-    font-family: Roboto;
-    color: black;
-    font-weight: 700;
-    font-size: medium;
-}
-
-.botao:hover{
-    scale: 1.1;
-}
 
 button{
     background-color: transparent;
@@ -107,6 +84,8 @@ button:hover{
     gap: 10px;
     background-color: #000000;
     padding: 80px;
+    justify-items: center;
+    align-items: center;
 }
 
 .sec1 h1{
@@ -136,7 +115,7 @@ button:hover{
 }
 
 #p-sec1-excessão{
-    color: #000000;
+    color: #d9d9d9;
     font-family: Lexend;
 }
 
@@ -204,6 +183,28 @@ button:hover{
     color: #d9d9d9;
 }
 
+
+
+/*-=-=-=--*/
+/*  Last  */
+/*-=-=-=--*/
+
+.sec-final{
+    background-color: #ffb800;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sec-final p{
+    font-family: Lexend;
+    font-size: 16px;
+    text-align: center;
+    color: #303030;
+    max-width: 70%;
+    margin: 0%;
+}
+
 /*-=-=-=-=-=-=-=-*/
 /*   Foooter     */
 /*-=-=-=-=-=-=-=-*/
@@ -211,7 +212,7 @@ button:hover{
 footer {
     width: 100%;
     color: #D9D9D9;
-    background-color: #080808;
+    background-color: #030712;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
