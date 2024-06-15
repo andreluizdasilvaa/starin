@@ -82,8 +82,8 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec0{
-    background-image: url(../img/meteoros/reespiro.jpg);
-    background-size: cover;
+    background-image: url(../img/meteoros/hubble_friday.webp);
+    /* background-size: cover; */
     background-attachment: fixed;
     height: 100px;
     background-color: #000000;
