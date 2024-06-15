@@ -21,7 +21,6 @@ body {
 
 ::-webkit-scrollbar{
     width: 8px;
- 
 }
 
 ::-webkit-scrollbar-thumb{
@@ -524,72 +523,78 @@ section.cardsq ul li img:hover {
 
 .primeiro {
     background-image: url('../img/Planetas anões/1.png');
-  }
-  
-  .segundo {
-    background-image: url('../img/Planetas anões/2.png');
-  }
-  
-  .terceiro {
-    background-image: url('../img/Planetas anões/3.png');
-  }
-  
-  .quarto {
-    background-image: url('../img/Planetas anões/4.png');
-  }
+}
 
-  .cinco {
+.segundo {
+    background-image: url('../img/Planetas anões/2.png');
+}
+
+.terceiro {
+    background-image: url('../img/Planetas anões/3.png');
+}
+
+.quarto {
+    background-image: url('../img/Planetas anões/4.png');
+}
+
+.cinco {
     background-image: url('../img/Planetas anões/5.png');
-  }
-  .container_sec5 {
+}
+
+.container_sec5 {
     width: 1270px;
     height: 600px;
     display: flex;
     flex-direction: row;
     border-radius: 0px 0px 30px 30px;
     margin: auto;
-  }
+}
 
-  .item {
+.item {
     flex-grow: 1;
     background-position: left center;
     background-size: cover;
-    filter: grayscale(100%);
     position: relative;
-    list-style: none; /*retira as marcações da lista*/
+    list-style: none;
     transition: all 0.7s ease-in-out; /* início e fim lentos*/
-    }
-  
-  .item:hover {
+    filter: grayscale(100%);
+}
+
+.item:hover {
     flex-grow: 3;
-    filter: grayscale(0%); /*volta a cor original*/
-  }
-  
-  .item a {
+}
+
+.item a {
     width: 100%;
     height: 100%;
-    display: flex; /*centralizar o texto*/
     position: absolute;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
-  }
-
-  .text {
-    font-size: 0; /*fica invisível quando o item estiver no estado normal*/
-    font-family: sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
     color: #FFB800;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-  }
+    font-size: 0;
+    text-transform: uppercase;
+    transition: all 0.5s ease-out;
+}
 
-  .item:hover .text {
-    /*passando o mouse em cima de algum item o text receberá as conf abaixo*/
-    font-size: 32px;
-    text-shadow: 2px 2px 12px black;
-  }
+.item p {
+    margin: 50px;
+    font-family: racing;
+}
+
+.text_sec5 {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.item:hover,
+.item a:hover {
+    font-size: 35px;
+    filter: grayscale(0);
+}
+
+.item a:hover .text_sec5 {
+    font-size: 20px;
+}
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=*/
 /* SECTION Ventos Solares */
