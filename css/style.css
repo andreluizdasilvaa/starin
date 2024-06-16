@@ -296,8 +296,11 @@ div.swiffy-slider {
     margin: 50px auto;
 }
 
-div.swiffy-slider ul li img {
+div.swiffy-slider ul li video {
     border-radius: 10px;
+    background-size: cover;
+    max-height: 1080px;
+    max-height: 404px;
 }
 
 video::-webkit-media-controls {
@@ -498,8 +501,12 @@ section.cardsq ul li img:hover {
 /*-=-=-=-=-=-*/
 /* SECTION 5 */
 
+.container_sec5_plAnoes_all {
+    margin: 50px;
+}
+
 .sec5_head {
-    width: 1230px;
+    max-width: 1230px;
     height: 150px;
     padding: 20px;
     margin: auto;
@@ -522,27 +529,27 @@ section.cardsq ul li img:hover {
 }
 
 .primeiro {
-    background-image: url('../img/Planetas anões/1.png');
+    background-image: url('../img/Planetas_anões/1.png');
 }
 
 .segundo {
-    background-image: url('../img/Planetas anões/2.png');
+    background-image: url('../img/Planetas_anões/2.png');
 }
 
 .terceiro {
-    background-image: url('../img/Planetas anões/3.png');
+    background-image: url('../img/Planetas_anões/3.png');
 }
 
 .quarto {
-    background-image: url('../img/Planetas anões/4.png');
+    background-image: url('../img/Planetas_anões/4.png');
 }
 
 .cinco {
-    background-image: url('../img/Planetas anões/5.png');
+    background-image: url('../img/Planetas_anões/5.png');
 }
 
 .container_sec5 {
-    width: 1270px;
+    max-width: 1270px;
     height: 600px;
     display: flex;
     flex-direction: row;
@@ -594,6 +601,55 @@ section.cardsq ul li img:hover {
 
 .item a:hover .text_sec5 {
     font-size: 20px;
+}
+
+.sec5_body_mobile {
+    display: none;
+}
+
+.container_sec5_body_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+    max-width: 735px;
+    height: 300px;
+    color: white;
+    background-color: #030712;
+    border: 2px solid white;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.container_sec5_body_mobile div h2 {
+    font-family: racing;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.container_sec5_body_mobile div h2 span {
+    font-family: racing;
+    text-decoration: underline;
+    color: #ffb800;
+}
+
+.container_sec5_body_mobile div a{
+    font-family: racing;
+    font-size: 30px;
+    color: white;
+    padding: 7px 17px;
+    border: 2px solid #FFB800;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.container_sec5_body_mobile div a:hover {
+    transition: .5s;
+    color: black;
+    background-color: #FFB800;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px #FFB800;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=*/

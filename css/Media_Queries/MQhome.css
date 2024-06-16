@@ -47,6 +47,22 @@
         width: 300px;
     }
 
+    .sec5_head {
+        max-width: 1000px;
+    }
+
+    .sec5_head h2 {
+        font-size: 3.3em;
+    }
+    
+    .sec5_head p {
+        font-size: 13px;
+    }
+
+    .container_sec5 {
+        max-width: 1040px;
+    }
+
     #photos-solarwind img {
         width: 200px;
         height: 100px;
@@ -88,6 +104,14 @@
 
     .conteiner_carrosel {
         display: none;
+    }
+
+    .sec5_head h2 {
+        font-size: 3em;
+    }
+    
+    .sec5_head p {
+        font-size: 12px;
     }
 }
 
@@ -158,6 +182,28 @@
         font-size: 1.25em;
         max-width: 850px;
         margin-right: 20px;
+    }
+
+    .sec5_head {
+        flex-wrap: wrap;
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .sec5_head h2 {
+        font-size: 3em;
+    }
+    
+    .sec5_head p {
+        font-size: 11px;
+    }
+
+    .container_sec5 {
+        display: none;
+    }
+
+    .sec5_body_mobile {
+        display: block;
     }
 
     #wrapper-solarwind h1 {
@@ -367,6 +413,14 @@
         font-size: 3.3em;
     }
 
+    .sec5_head h2 {
+        font-size: 2.5em;
+    }
+    
+    .sec5_head p {
+        font-size: 10px;
+    }
+
     #Logo_footer {
         width: 150px;
     }
@@ -455,6 +509,18 @@
     .sec3_paralax a {
         margin: 30px 0px 0px 35px;
     }
+
+    .sec5_head {
+        max-height: 80px;
+    }
+    
+    .sec5_head p {
+        display: none;
+    }
+
+    .container_sec5_body_mobile div h2 {
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -488,6 +554,13 @@
 
     #photos-solarwind img {
         display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .sec5_head h2 {
+        font-size: 1.9em;
     }
 }
 
