@@ -9,9 +9,8 @@
 /*-=-=-=-=-=-=-=-*/
 
 .header {
-    height: 1000px;
-    background-image: url(../img/aurora/aurora-boreal6.jpg);
-    background-size: cover;
+    height: 1050px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 1.01%, #000 91.5%), url(../img/aurora/aurora-boreal6.jpg) lightgray 50% / cover no-repeat;
     display: flex;
     align-items: flex-end;
 }
@@ -60,7 +59,6 @@
 .parallax-01 {
     background-image: url(../img/aurora/stars.gif);
     background-attachment: fixed;
-    background-repeat: repeat;
     filter: brightness(60%);
     height: 200px;
 }
