@@ -117,6 +117,7 @@
     background-image: url(../img/cometas/cometas-parallax.webp);
     background-attachment: fixed;
     height: 700px;
+    filter: brightness(60%);
 }
 
 /*-=-=-=-=-=-=-=-=-=*/
@@ -181,7 +182,8 @@
     background-image: url(../img/cometas/pessoa-telescopio.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 800px;
+    height: 700px;
+    filter: brightness(70%);
 }
 
 /*-=-=-=-=-=-=-=-=-*/
