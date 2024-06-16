@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-=-=-=-=-=*/
+/*  HEADER  */
+/*-=-=-=-=-=*/
+
+.header {
+    height: 1000px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2.6%, rgba(0, 0, 0, 0.60) 58.79%, #000 100%), url(../img/cometas-new/cometas-parallax4.webp) lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 70px;
+}
+
+.h1-header {
+    color: #d9d9d9;
+    font-family: roboto;
+    font-size: 130px;
+}
+
+/*-=-=-=-=-=-*/
+/*  O QUE É  */
+/*-=-=-=-=-=-*/
+
+.oque {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+}
+
+.oque-01 {
+    padding: 60px 90px 60px 90px;
+}
+
+.h3-oque {
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    font-family: racing sans one;
+    font-size: 35px;
+}
+
+.p-oque {
+    color: #d9d9d9;
+    text-align: justify;
+    font-family: roboto;
+    font-size: 25px;
+}
+
+.parallax-oque {
+    background-image: url(../img/cometas-new/fundo-estrelado-nasa.webp);
+    background-attachment: fixed;
+    height: 300px;
+    filter: brightness(80%);
+}
+
+/*-=-=-=-=-=-=-=-=-=-=*/
+/*  TIPOS DE COMETAS  */
+/*-=-=-=-=-=-=-=-=-=-=*/
+
+.titulo-tipos {
+    height: 150px;
+    background-color: #030712;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.h1-tipos {
+    color: #FFB800;
+    font-family: roboto;
+    font-size: 80px;
+    margin-left: 60px;
+}
+
+.conteudo-tipos {
+    height: 1300px;
+    background-color: #030712;
+}
+
+.tipo-cometa {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.img-tipos-cometa {
+    height: 400px;
+    border: 18px solid #d9d9d9;
+    border-bottom: 60px solid #d9d9d9;
+}
+
+.texto-tipos {
+    width: 700px;
+    margin-left: 100px;
+}
+
+.h3-tipos {
+    color: #FFB800;
+    font-family: roboto;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.p-tipos {
+    color: #d9d9d9;
+    font-family: roboto;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parallax-tipos {
+    background-image: url(../img/cometas-new/cometas-parallax.webp);
+    background-attachment: fixed;
+    height: 700px;
+    filter: brightness(70%);
+}
+
+/*-=-=-=-=-=-=-=-=-=*/
+/*   CURIOSIDADES   */
+/*-=-=-=-=-=-=-=-=-=*/
+
+.titulo-curiosidades {
+    height: 150px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.h1-curiosidades {
+    color: #030712;
+    font-family: roboto;
+    font-size: 80px;
+    margin-left: 60px;
+}
+
+.conteudo-curiosidades {
+    height: 1300px;
+    background-color: white;
+}
+
+.curiosidade-01 {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.img-curiosidades {
+    height: 400px;
+    width: 700px;
+    border: 18px solid #d9d9d9;
+    border-bottom: 75px solid #d9d9d9;
+}
+
+.texto-curiosidades {
+    width: 700px;
+    margin-left: 100px;
+}
+
+.h3-curiosidades {
+    color: #030712;
+    font-family: roboto;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.p-curiosidades {
+    color: #030712;
+    font-family: roboto;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parallax-curiosidades {
+    background-image: url(../img/cometas-new/pessoa-telescopio.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+/*-=-=-=-=-=-=-=-=-*/
+/*     ATALHOS     */
+/*-=-=-=-=-=-=-=-=-*/
+
+.atalhos {
+    background-image: url(../img/cometas-new/stars.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-atalho-01 {
+    border-radius: 20%;
+}
+
+.img-atalho-01:hover {
+    transform: scale(1.01);
+}
+
+.img-atalho-02 {
+    border-radius: 15%;
+    margin-left: 50px;
+}
+
+.img-atalho-02:hover {
+    transform: scale(1.01);
+}
+
+/*-=-=-=-=-*/
+/*  FINAL  */
+/*-=-=-=-=-*/
+
+.sec-final{
+    background-color: #ffb800;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.sec-final p{
+    font-family: Lexend;
+    font-size: 18px;
+    text-align: center;
+    color: #303030;
+}
+
+/*-=-=-=-=-=-=-=*/
+/*    FOOTER    */
+/*-=-=-=-=-=-=-=*/
+
+footer {
+    width: 100%;
+    color: #D9D9D9;
+    background-color: #080808;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-items: center;
+}
+
+
+.ft-contatos img{
+    width: 30px;
+    padding: 10px;
+    padding-top: 0%;
+    
+}
+
+.ft-contatos{
+    margin-left: 100px;
+}
+
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D9D9D9;
+    font-family: Lexend;
+    transition: all 0.3s;
+}
+
+.li:hover{
+    color: #ffb800;
+    text-decoration: underline 2px;
+}
+
+label {
+    font-size: 12px;
+    font-family: Lexend;
+
+}
+
+#footer-subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: #ffb800;
+    font-family: Lexend;
+    font-weight: 800;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover{
+    scale: 1.05;
+}
