@@ -8,15 +8,15 @@
 /*-=-=-=-=-=*/
 
 .header {
-    height: 1000px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2.6%, rgba(0, 0, 0, 0.60) 58.79%, #000 100%), url(../img/cometas-new/cometas-parallax4.webp) lightgray 50% / cover no-repeat;
+    height: 800px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 2.6%, rgba(0, 0, 0, 0.60) 58.79%, #000 100%), url(../img/cometas-new/cometa-header.jpg) lightgray 50% / cover no-repeat;
     display: flex;
     align-items: flex-end;
     padding: 70px;
 }
 
 .h1-header {
-    color: #d9d9d9;
+    color: #ffb800;
     font-family: roboto;
     font-size: 130px;
 }
@@ -167,7 +167,7 @@
 
 .h3-curiosidades {
     color: #030712;
-    font-family: roboto;
+    font-family: racing sans one;
     font-size: 30px;
     margin-bottom: 18px;
 }
