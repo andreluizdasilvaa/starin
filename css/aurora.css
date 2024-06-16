@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+/*-=-=-=-=-=-=-=-*/
+/*     HEADER    */
+/*-=-=-=-=-=-=-=-*/
+
+.header {
+    height: 1000px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 1.01%, #000 91.5%), url(../img/aurora/aurora-boreal6.jpg) lightgray 50% / cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+
+.titulo {
+    color: #D9D9D9;
+    font-family: roboto;
+    font-weight: bolder;
+    font-size: 130px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+/*-=-=-=-=-=-=-*/
+/*   O QUE É   */
+/*-=-=-=-=-=-=-*/
+
+.oque {
+    display: flex;
+    color: #D9D9D9;
+    background-color: black;
+    height: 800px;
+}
+
+.titulo-oque {
+    font-size: 70px;
+}
+
+.text-oque {
+    width: 1000px;
+    text-align: justify;
+    font-family: roboto condensed;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.first-img {
+    margin-top: 180px;
+    margin-left: 180px;
+    width: 900px;
+    border: 10px solid #d9d9d9;
+    border-bottom: 50px solid #D9D9D9;
+}
+
+.parallax-01 {
+    background-image: url(../img/aurora/stars.gif);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    filter: brightness(60%);
+    height: 200px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/*   BOREAL VS AUSTRAL   */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.boreal-vs-austral {
+    color: #D9D9D9;
+    background-color: #070312;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-section2 {
+    font-size: 70px;
+    font-family: roboto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.second-img {
+    width: 800px;
+    padding-right: 140px;
+}
+
+.content-vs {
+    display: flex;
+    padding-top: 50px;
+}
+
+.text-vs {
+    width: 900px;
+    font-family: roboto condensed;
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.parallax-02 {
+    background-image: url(../img/aurora/vento-solar-auroras.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    filter: brightness(80%);
+    height: 700px;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+/*    PAÍSES - BOREAL    */
+/*-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.titulo-paises {
+    display: flex;
+}
+
+.titulo-boreal {
+    font-family: roboto;
+    font-size: 70px;
+    color: #070312;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.third-img {
+    width: 250px;
+}
+
+
+#paises {
+    background-image: url(../img/aurora/terra-de-noite.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-areas: 
+    "one two"
+    "three four"
+    "five six"
+    "seven eight";
+    padding-top: 100px;
+    padding-left: 170px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.pais-img {
+    width: 500px;
+    height: 300px;
+}
+
+.nome-pais {
+    font-family: roboto;
+    color: #D9D9D9;
+    margin-left: 30px;
+}
+
+#one {
+    display: flex;
+    align-items: center;
+    grid-area: one;
+}
+
+#two {
+    display: flex;
+    align-items: center;
+    grid-area: two;
+}
+
+#three {
+    display: flex;
+    align-items: center;
+    grid-area: three;
+}
+
+#four {
+    display: flex;
+    align-items: center;
+    grid-area: four;
+}
+
+#five {
+    display: flex;
+    align-items: center;
+    grid-area: five;
+}
+
+#six {
+    display: flex;
+    align-items: center;
+    grid-area: six;
+}
+
+#seven {
+    display: flex;
+    align-items: center;
+    grid-area: seven;
+}
+
+#eight {
+    display: flex;
+    align-items: center;
+    grid-area: eight;
+}
+
+/*=*=*=*=*=*=*=*=*=*/
+/*     FOOTER      */
+/*=*=*=*=*=*=*=*=*=*/
+
+footer {
+width: 100%;
+color: #D9D9D9;
+background-color: #080808;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+align-items: center;
+padding-top: 20px;
+padding-bottom: 20px;
+justify-items: center;
+}
+
+
+.ft-contatos img{
+width: 30px;
+padding: 10px;
+padding-top: 0%;
+
+}
+
+.ft-contatos{
+margin-left: 100px;
+}
+
+.ul{
+display: flex;
+list-style: none;
+gap: 5px;
+align-items: center;
+
+}
+
+.li{
+text-decoration: none;
+text-transform: uppercase;
+color: #D9D9D9;
+font-family: Lexend;
+transition: all 0.3s;
+}
+
+.li:hover{
+color: #ffb800;
+text-decoration: underline 2px;
+}
+
+label {
+font-size: 12px;
+font-family: Lexend;
+}
+
+#footer-subscribe{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+input{
+padding: 8px;
+border: none;
+border-radius: 10px;
+}
+
+#submit{
+background-color: #ffb800;
+font-family: Lexend;
+font-weight: 800;
+text-transform: uppercase;
+transition: all 0.3s;
+}
+
+#submit:hover{
+scale: 1.05;
+}
