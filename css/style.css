@@ -283,8 +283,10 @@ section.sec2 {
 }
 
 .sec2 P {
-    font-weight: 500;
+    font-weight: 400;
+    text-align: justify;
     color: black;
+    font-family: Lexend;
 }
 
 /*-=-=-=-=-=*/
@@ -312,7 +314,7 @@ video::-webkit-media-controls {
 
 .sec3_paralax {
     width: 100%;
-    height: 780px;
+    height: 600px;
     background-image: url(../img/Background/astronauta\ na\ lua\ paralax.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -456,7 +458,7 @@ section.cardsq ul li img:hover {
 
 .sec4 {
     width: 100%;
-    height: 780px;
+    height: 600px;
     background-image: url(../img/Você_sabia_que_estamos_cercados/foto\ _você\ sabia\ que\ estamos\ cercados_.jpg);
     background-size: cover;
     background-repeat: no-repeat;
