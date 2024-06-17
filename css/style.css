@@ -641,20 +641,6 @@ section.cardsq ul li img:hover {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
-    background-color: #FFB800;
-    color: #030712;
-    padding: 7px 17px;
-    border: 2px solid #FFB800;
-    border-radius: 10px;
-    transition: all 0.5s ease-out;
-}
-
-.container_sec5_body_mobile div a:hover {
-    transition: .5s;
-    color: black;
-    background-color: #FFB800;
-    border: 2px solid black;
-    box-shadow: 0px 0px 20px #FFB800;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=*/
