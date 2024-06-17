@@ -1,114 +1,176 @@
 * {
     padding: 0;
     margin: 0;
-    max-width: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+ 
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ffb800;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
 }
 
 /*-=-=-=-=-=-=-=-*/
-/*     HEADER    */
+/*     HEADER   */
 /*-=-=-=-=-=-=-=-*/
 
-.header {
-    height: 1000px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 1.01%, #000 91.5%), url(../img/aurora/aurora-boreal6.jpg) lightgray 50% / cover no-repeat;
+header{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.637) 0%, #000000 100%), url(../img/aurora/aurora-boreal6.jpg);
+    background-size: cover;
+    background-position: bottom;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    height: 1000px; 
 }
 
-.titulo {
-    color: #D9D9D9;
-    font-family: roboto;
-    font-weight: bolder;
+h1{
+    font-family: Roboto;
+    width: 719px;
+    position: relative;
     font-size: 130px;
-    margin-bottom: 50px;
-    margin-left: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto;
+    color: #d9d9d9;
+    display: inline-block;
+    margin-left: 50px;
+    padding-bottom: 70px;
 }
+
+p{
+
+    position: relative;
+    font-size: 20px;
+    font-family: Roboto;
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    height: 75px;
+    margin-left: 50px;
+    max-width: 50%;
+
+}
+
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+button:hover{
+    scale: 1.01;
+}
+
 
 /*-=-=-=-=-=-=-*/
 /*   O QUE É   */
 /*-=-=-=-=-=-=-*/
 
-.oque {
-    display: flex;
-    color: #D9D9D9;
-    background-color: black;
-    height: 800px;
+.sec3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #000000;
+    padding: 80px;
+    margin: auto;
 }
 
-.titulo-oque {
-    font-size: 70px;
+.sec3 h1{
+    font-family: Racing Sans One;
+    font-size: 50px;
+    margin: auto;
+    text-align: left;
+    margin-left: 90px;
 }
 
-.text-oque {
-    width: 700px;
+.sec3 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
     text-align: justify;
-    font-family: roboto condensed;
-    font-size: 25px;
-    margin-top: 80px;
-    margin-left: 100px;
+    margin: auto;
 }
 
-.first-img {
-    margin-top: 180px;
-    margin-left: 80px;
-    width: 800px;
-    border: 10px solid #d9d9d9;
-    border-bottom: 50px solid #D9D9D9;
+.sec3 img{
+    display: grid;
+    justify-content: center;
 }
 
-.parallax-01 {
-    background-image: url(../img/aurora/stars.gif);
-    background-attachment: fixed;
-    background-repeat: repeat;
-    filter: brightness(60%);
-    height: 200px;
+.txt-sec3{
+    display: grid;
 }
+
+.foto-sec3{
+    display: grid;
+    justify-content: center;
+}
+
+#frase{
+    color: #ffb800;
+}
+
 
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 /*   BOREAL VS AUSTRAL   */
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 
-.boreal-vs-austral {
-    color: #D9D9D9;
-    background-color: #070312;
-    height: 900px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#sec1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    background-color: #000000;
+    padding: 80px;
 }
 
-.titulo-section2 {
-    font-size: 70px;
-    font-family: roboto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+#sec1 h1{
+    font-family: Racing Sans One;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
 }
 
-.second-img {
-    width: 800px;
-    padding-right: 140px;
-}
-
-.content-vs {
-    display: flex;
-    padding-top: 50px;
-}
-
-.text-vs {
-    width: 700px;
-    font-family: roboto condensed;
-    font-size: 25px;
+#sec1 p{
+    font-family: Lexend;
+    font-size: 20px;
+    max-width: 80%;
     text-align: justify;
-    margin-top: 50px;
+    margin: 0%;
 }
 
-.parallax-02 {
-    background-image: url(../img/aurora/vento-solar-auroras.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    filter: brightness(80%);
-    height: 700px;
+#sec1 img{
+    margin: 0;
 }
+
+.txt-sec1{
+    display: grid;
+    justify-content: center;
+}
+
+.foto-sec1{
+    display: grid;
+    justify-content: center;
+}
+
+#frase{
+    color: #ffb800;
+}
+
+
+.parallax{
+    background-image: url(../img/aurora/aurora-boreal8.jpg);
+    height: 600px;
+}
+
+
 
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 /*    PAÍSES - BOREAL    */
