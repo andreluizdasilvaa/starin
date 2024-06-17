@@ -12,13 +12,14 @@ body {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(../img/img_sobre/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.386) 100%), url(../img/img_sobre/gif-doidinho.gif);
+    background-size: cover;
   
 }
 
 .hero-section h1 {
-    font-size: 4rem;
-    color: #fff;
+    color: #ffb800;
+    font-family: roboto;
     border-radius: 50%;
 }
 
@@ -93,12 +94,15 @@ nav ul li a {
 }
 
 h2 {
+    font-family: roboto;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 1.2em;
+    font-family: roboto condensed;
+    text-align: justify;
+    font-size: 1.8em;
     line-height: 1.6;
 }
 
@@ -204,7 +208,86 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(.//img/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.384) 0%, rgb(0, 0, 0) 100%), url(../img/img_sobre/Astronaut\ Observing\ Earth\ from\ Spacecraft.jpg);
+}
+
+.h1-sobrenos {
+    font-family: roboto;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.h2-missoes {
+    color: #ffb800;
+    font-family: racing sans one;
+    font-size: 50px;
+}
+
+.text-valores {
+    font-family: roboto condensed;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.text-patrocinadores {
+    font-family: roboto condensed;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h5-nome {
+    font-family: lexend;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-img-top {
+    height: 500px;
+}
+
+.card-title {
+    font-family: roboto condensed;
+    font-size: 20px;
+}
+
+.container-text-center {
+    margin-top: 500px;
+    height: 200px;
+}
+
+.h1-educacao {
+    font-size: 30px;
+    font-family: roboto;
+}
+
+.h2-patrocinadores {
+    font-size: 30px;
+    font-family: roboto;
+}
+
+
+.parallax-equipe-02 {
+    height: 100px;
+    background-image: url(../img/img_sobre/estrelinhas.gif);
+}
+
+.parallax-equipe-01 {
+    height: 100px;
+    background-image: url(../img/img_sobre/estrelinhas.gif);
+}
+
+.pessoas-educacao {
+    height: 800px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.parallax-stars {
+    height: 200px;
+    background-image: url(../img/aurora/stars.gif);
+    background-attachment: fixed;
 }
 
 footer {
