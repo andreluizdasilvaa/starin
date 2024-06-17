@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.386) 100%), url(../img/img_sobre/gif-doidinho.gif);
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.973) 100%), url(../img/img_sobre/header-sobrenos.jpg);
     background-size: cover;
   
 }
@@ -202,7 +202,7 @@ nav ul li a {
 .equipe {
     background-position: top right;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -243,6 +243,10 @@ nav ul li a {
 }
 
 .card-img-top {
+    height: 400px;
+}
+
+.card-img-top-01 {
     height: 500px;
 }
 
@@ -264,6 +268,10 @@ nav ul li a {
 .h2-patrocinadores {
     font-size: 30px;
     font-family: roboto;
+}
+
+.patrocinador-01 {
+    height: 300px;
 }
 
 
