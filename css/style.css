@@ -625,21 +625,24 @@ section.cardsq ul li img:hover {
 }
 
 .container_sec5_body_mobile div h2 {
-    font-family: racing;
-    font-size: 40px;
+    font-family: Lexend;
+    text-transform: uppercase;
+    font-size: 25px;
     margin-bottom: 50px;
 }
 
 .container_sec5_body_mobile div h2 span {
-    font-family: racing;
-    text-decoration: underline;
+    font-family: lexend;
     color: #ffb800;
 }
 
 .container_sec5_body_mobile div a{
-    font-family: racing;
-    font-size: 30px;
-    color: white;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFB800;
+    color: #030712;
     padding: 7px 17px;
     border: 2px solid #FFB800;
     border-radius: 10px;
