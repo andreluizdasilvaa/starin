@@ -128,17 +128,17 @@
 .intro-planeta {
     height: 1100px;
     background-image: url(../img/planetas-new/stars.gif);
-    background-attachment: fixed;
     display: flex;
     align-items: center;
-    padding: 500px;
+    padding: 100px;
 
 }
 
 .img-planeta {
-    height: 600px;
+    height: 500px;
     border-radius: 100%;
     margin-right: 100px;
+    margin-left: 150px;
 }
 
 .h1-nome-planeta {
@@ -151,13 +151,13 @@
     background-color: #d9d9d9;
     display: flex;
     flex-direction: row;
-    padding: 130px;
+    padding: 80px;
     justify-content: center;
 }
 
 .text-planeta-01 {
     font-family: roboto condensed;
-    font-size: 28px;
+    font-size: 22px;
     text-align: justify;
     width: 800px;
     margin-right: 100px;
@@ -165,7 +165,7 @@
 
 .text-planeta-02 {
     font-family: roboto condensed;
-    font-size: 28px;
+    font-size: 22px;
     text-align: justify;
     width: 800px;
 }
