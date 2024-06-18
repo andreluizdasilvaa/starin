@@ -212,21 +212,6 @@ button:hover{
 
 
 
-.gallery{
-    background-color: #030712;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    padding: 40px;
-    justify-items: center;
-}
-
-.gallery img{
-    margin: 0%;
-    padding: 0%;
-    border-radius: 40px;
-}
-
 
 /*-=-=-=-=-=-=-=-*/
 /*   cartões Q   */

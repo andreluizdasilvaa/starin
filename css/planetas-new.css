@@ -4,22 +4,49 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar{
+    width: 8px;
+ 
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ffb800;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
 /*-=-=-=-=-=-=*/
 /*   HEADER   */
 /*-=-=-=-=-=-=*/
 
 .header {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 20.47%, rgba(0, 0, 0, 0.55) 52.1%, #000 100%), url(../img/planetas-new/planeta-terra1.jpg) lightgray 50% / cover no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 20.47%, rgba(0, 0, 0, 0.55) 52.1%, #000 100%), url(../img/planetas-new/capa.jpg) lightgray 50% / cover no-repeat;
     height: 800px;
-    display: flex;
-    align-items: center;
-    padding: 80px;
+    display: grid;
 }
 
 .h1-header {
     font-family: roboto;
-    font-size: 110px;
+    font-size: 130px;
     color: #d9d9d9;
+    margin-left: 50px;
+    margin-bottom: 268px;
+
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+button:hover{
+    scale: 1.01;
 }
 
 /*-=-=-=-=-=-=-=-=-=-*/
@@ -27,7 +54,7 @@
 /*-=-=-=-=-=-=-=-=-=-*/
 
 .menu {
-    height: 50px;
+    height: 70px;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -36,16 +63,18 @@
 }
 
 .link-planetas {
-    font-family: roboto;
-    font-weight: 300;
-    font-size: 30px;
+    font-family: Lexend;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
     color: white;
     text-decoration: none;
+    transition: all 0.3s;
 }
 
 .link-planetas:hover {
     transform: scale(1.01);
-    text-decoration: underline;
+    color: #ffb800;
     background-image: url(../img/planetas-new/stars.gif);
 }
 
@@ -57,10 +86,13 @@
     background-color: #d9d9d9;
     display: flex;
     padding: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .p-oque {
-    font-family: roboto condensed;
+    font-family: Lexend;
     font-size: 35px;
     width: 600px;
     text-align: justify;
@@ -71,7 +103,7 @@
 /*-=-=-=-=-=-=-=-=-=-*/
 
 .sistemasolar {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(0, 0, 0);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -81,13 +113,13 @@
 
 .p-sistemasolar-01 {
     color: #d9d9d9;
-    font-family: roboto;
+    font-family: Lexend;
     font-size: 25px;
 }
 
 .p-sistemasolar-02 {
     color: #d9d9d9;
-    font-family: roboto;
+    font-family: Lexend;
     font-size: 25px;
 }
 
@@ -109,15 +141,15 @@
 /*-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .titulo-conteudo {
-    background-color: #030712;
+    background-color: #000000;
     padding: 80px;
 }
 
 .h1-conteudo-principal {
     color: #d9d9d9;
-    font-family: roboto;
+    font-family: lexend;
     font-size: 80px;
-    width: 800px;
+    text-align: center;
 }
 
 
@@ -126,19 +158,20 @@
 /*-=-=-=-=-=-=-=*/
 
 .intro-planeta {
-    height: 1100px;
-    background-image: url(../img/planetas-new/stars.gif);
-    display: flex;
+    height: 700px;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 100px;
+    justify-items: center;
 
 }
 
 .img-planeta {
     height: 500px;
     border-radius: 100%;
-    margin-right: 100px;
-    margin-left: 150px;
+    display: grid;
 }
 
 .h1-nome-planeta {
