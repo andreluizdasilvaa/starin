@@ -214,7 +214,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec4{
-    background-image: url(/img/Meio_ambiente/eclipse.jpg);
+    background-image: url(../img/Meio_ambiente/eclipse.jpg);
     background-size: cover;
     background-attachment: fixed;
     filter: brightness(40%);
@@ -273,7 +273,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec6{
-    background-image: url(/img/Meio_ambiente/aldabracoralatoll.jpg);
+    background-image: url(../img/Meio_ambiente/aldabracoralatoll.jpg);
     background-size: cover;
     background-attachment: fixed;
     filter: brightness(40%);
@@ -332,7 +332,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec8{
-    background-image: url(/img/Meio_ambiente/montanha.jpg);
+    background-image: url(../img/Meio_ambiente/montanha.jpg);
     background-size: cover;
     filter: brightness(40%);
     background-attachment: fixed;
@@ -344,7 +344,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec9 {
-    background-image: url(/img/Meio_ambiente/mahakamdelta.jpg);
+    background-image: url(../img/Meio_ambiente/mahakamdelta.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 600px;

@@ -202,7 +202,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec4{
-    background-image: url(/img//desbravadores/planetary-systems\ \(1\).jpg);
+    background-image: url(../img//desbravadores/planetary-systems\ \(1\).jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -271,7 +271,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec6{
-    background-image: url(/img//desbravadores/maça.jpg);
+    background-image: url(../img//desbravadores/maça.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -341,7 +341,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec8{
-    background-image: url(/img//desbravadores/urano.jpg);
+    background-image: url(../img//desbravadores/urano.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -365,7 +365,7 @@ button:hover{
 /*-=-=-=-=-=-=-=-*/
 
 .sec9 {
-    background-image: url(/img//desbravadores/plutao.jpg);
+    background-image: url(../img//desbravadores/plutao.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: grid;
